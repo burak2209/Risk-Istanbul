@@ -82,13 +82,6 @@ class _CatalcaState extends State<Catalca> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Ormanlı Hisarbeyli Yolu Parkı,Karacaköy Caddesi Spor Alanı,Şamdan Sokak",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

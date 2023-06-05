@@ -89,13 +89,6 @@ class _UskudarState extends State<Uskudar> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-BÜYÜK ÇAMLICA KORUSU                                       ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

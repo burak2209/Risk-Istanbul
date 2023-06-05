@@ -75,13 +75,6 @@ class _UmraniyeState extends State<Umraniye> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-TEV Uğuz Tarık Demirağ Mesleki ve Teknik Anadolu Lisesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

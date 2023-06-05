@@ -89,13 +89,6 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Yavuz Selim Mahallesi, Mescidi Aksa Caddesi, Misafir Sokak,Fatih Mahallesi, Fırat Caddesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

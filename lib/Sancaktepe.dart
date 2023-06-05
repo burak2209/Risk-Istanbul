@@ -82,13 +82,6 @@ class _SancaktepeState extends State<Sancaktepe> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-YUMURCAK ÇOCUK PARKI,RIDVAN DİLMEN SPOR PARKI",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

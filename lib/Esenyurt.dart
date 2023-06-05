@@ -89,13 +89,6 @@ class _EsenyurtState extends State<Esenyurt> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-2120. Sokak Parkı,Vadi Esenyurt Şehir Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

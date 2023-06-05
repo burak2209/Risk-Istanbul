@@ -89,13 +89,6 @@ class _TuzlaState extends State<Tuzla> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-YAŞAM SİTESİ PARKI,15 TEMMUZ ŞEHİTLER PARKI",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

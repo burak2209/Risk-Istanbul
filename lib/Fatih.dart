@@ -82,13 +82,6 @@ class _FatihState extends State<Fatih> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Seyyid Ömer Şelaleli Park,Uzunyusuf Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

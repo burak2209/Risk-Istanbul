@@ -82,13 +82,6 @@ class _GungorenState extends State<Gungoren> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-M. NESİH ÖZMEN PARKI,FATİH CADDESİ PARKI",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

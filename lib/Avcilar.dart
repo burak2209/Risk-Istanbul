@@ -79,13 +79,6 @@ class _AvcilarState extends State<Avcilar> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Yıldırım Beyazıt Caddesi Toplanma Alanı ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

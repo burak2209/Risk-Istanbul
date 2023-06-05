@@ -89,13 +89,6 @@ class _SariyerState extends State<Sariyer> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Maden Mahallesi Kurban Kesim Alanı,Prof. Dr. Aziz Sancar Nobel Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

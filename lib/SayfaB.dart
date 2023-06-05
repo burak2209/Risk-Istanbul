@@ -33,109 +33,135 @@ class _SayfaBState extends State<SayfaB> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextButton(
-              child: Text("Sonraki Sayfaya Geç"),
-              style: TextButton.styleFrom(foregroundColor: Colors.red),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => SayfaC()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Sonraki Sayfaya Geç"),
+                style: TextButton.styleFrom(foregroundColor: Colors.red),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SayfaC()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Büyükçekmece"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Buyukcekmece()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Büyükçekmece"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Buyukcekmece()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Çatalca"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Catalca()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Çatalca"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Catalca()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Çekmeköy"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Cekmekoy()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Çekmeköy"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Cekmekoy()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Esenler"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Esenler()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Esenler"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Esenler()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Esenyurt"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Esenyurt()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Esenyurt"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Esenyurt()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Eyüpsultan"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Eyupsultan()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Eyüpsultan"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Eyupsultan()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Fatih"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Fatih()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Fatih"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Fatih()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Gaziosmanpaşa"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Gaziosmanpasa()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Gaziosmanpaşa"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Gaziosmanpasa()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Güngören"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Gungoren()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Güngören"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Gungoren()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Kadıköy"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Kadikoy()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Kadıköy"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kadikoy()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Kağıthane"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Kagithane()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Kağıthane"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kagithane()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Kartal"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Kartal()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Kartal"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kartal()));
+                },
+              ),
             ),
           ],
         ),

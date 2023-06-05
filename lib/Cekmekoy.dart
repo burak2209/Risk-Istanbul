@@ -82,13 +82,6 @@ class _CekmekoyState extends State<Cekmekoy> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Erhallar Cami Bahçesi	,Reşadiye Parkında",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

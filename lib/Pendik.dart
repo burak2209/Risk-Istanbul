@@ -96,13 +96,6 @@ class _PendikState extends State<Pendik> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Çağlayan Sokak Parkı ,Aydos Parkı ,Milli Egemenlik Parkı ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

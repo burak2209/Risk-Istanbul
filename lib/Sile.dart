@@ -89,13 +89,6 @@ class _SileState extends State<Sile> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-TEKE	AKA-TAPULAMA HARİCİ ALANI       ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

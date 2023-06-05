@@ -35,7 +35,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
             Text(
               "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir.una göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 27,
                 color: Colors.black,
               ),
             ),
@@ -53,60 +53,172 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
               height: 10,
               color: Colors.black,
             ),
-            Text(
-              "-Hasan Polatkan Parkı , Aşık Veysel Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Hasan Polatkan Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Şehit Er Sabahattin Akgül Parkı  -Engelliler Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Aşık Veysel Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Arnavutköy Merkez Camii , Atatürk Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Şehit Er Sabahattin Akgül Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Şehit Er Tuncay Türken Parkı , Fetih Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Engelliler Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Şehit Er Musa Tikicieri Parkı , Balaban Köy Meydanı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Arnavutköy Merkez Camii",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Balaban Parkı , Kocayusuf Parkı	Hastane	Hadımköy",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Atatürk Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-M.F. Çakmak Trafik Eğitim Alanı , Adnan Menderes Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Şehit Er Tuncay Türken Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "Sıtkı Şefika Üzüm Parkı , Tayakadın Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Fetih Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Şehit Er Musa Tikicieri Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Balaban Köy Meydanı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Balaban Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Kocayusuf Parkı Hastane Hadımköy",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-M.F. Çakmak Trafik Eğitim Alanı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Adnan Menderes Parkı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
           ],

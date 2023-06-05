@@ -96,13 +96,6 @@ class _KagithaneState extends State<Kagithane> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-M.Akif Ersoy Mahalle Konağı Önü,	 -Mehmet Akif Futbol Sahası ,Günebakan İlkokulu Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

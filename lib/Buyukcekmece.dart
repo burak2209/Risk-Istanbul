@@ -83,13 +83,6 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Güzelce Kapalı Pazar Yeri ( Aynı Zamanda TRANSFER ALANIDIR.).",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

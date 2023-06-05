@@ -89,13 +89,6 @@ class _MaltepeState extends State<Maltepe> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Kamuran  Kumkuoğlu Parkı,Zümrütevler Parkı (Eski Muhtarlık Parkı)",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

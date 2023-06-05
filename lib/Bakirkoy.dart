@@ -93,13 +93,6 @@ class _BakirkoyState extends State<Bakirkoy> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "- Sakızağacı Mh.    Sakızağacı Sahil Parkı 1",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

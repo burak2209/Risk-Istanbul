@@ -74,13 +74,6 @@ class _BayrampasaState extends State<Bayrampasa> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Gıdacılar Parkı,Kocatepe Parkı,Ertuğrul Gazi Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

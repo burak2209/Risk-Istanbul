@@ -85,13 +85,6 @@ class _AtasehirState extends State<Atasehir> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-İçerenköy Mh. NURİ CINGILLIOĞLU LİSESİ VE YANI KARSLI AHMED CADDESİ CANAN SOKA ",
-              style: TextStyle(
-                fontSize: 19,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

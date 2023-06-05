@@ -96,13 +96,6 @@ class _SultangaziState extends State<Sultangazi> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-	Erguvan Parkı,Öğretmen Ekrem Yıldız Parkı ( Aynı Zamanda TRANSFER ALANIDIR.),Hamit Süreyya Eremsel İlkokulu Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

@@ -89,13 +89,6 @@ class _KartalState extends State<Kartal> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Bulgaristan Varna Parkı / Kartal Spor Alt Yapı Tesisleri",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

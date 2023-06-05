@@ -89,13 +89,6 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-75. YIL CUMHURİYET PARKI,KONUTBİRLİK PARKI",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

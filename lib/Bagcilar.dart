@@ -79,13 +79,6 @@ class _BagcilarState extends State<Bagcilar> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Abdurrahman ve Nermin Bilimli Mesleki ve Teknik Anadolu Lisesi Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

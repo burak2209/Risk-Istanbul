@@ -10,6 +10,7 @@ import 'package:riskistanbul/Basaksehir.dart';
 import 'package:riskistanbul/Bayrampasa.dart';
 import 'package:riskistanbul/Besiktas.dart';
 import 'package:riskistanbul/Beykoz.dart';
+import 'package:riskistanbul/Beylikduzu.dart';
 import 'package:riskistanbul/Beyoglu.dart';
 import 'package:riskistanbul/Buyukcekmece.dart';
 import 'package:riskistanbul/SayfaB.dart';
@@ -33,109 +34,145 @@ class _SayfaAState extends State<SayfaA> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextButton(
-              child: Text("Öbür sayfaya geç"),
-              style: TextButton.styleFrom(foregroundColor: Colors.red),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => SayfaB()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Öbür sayfaya geç"),
+                style: TextButton.styleFrom(foregroundColor: Colors.red),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SayfaB()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Adalar"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Adalar()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Adalar"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Adalar()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Arnavutkoy"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Arnavutkoy()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Arnavutkoy"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Arnavutkoy()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Ataşehir"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Atasehir()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Ataşehir"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Atasehir()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Avcılar"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Avcilar()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Avcılar"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Avcilar()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Bağcılar"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Bagcilar()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Bağcılar"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Bagcilar()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Bahçelievler"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Bahcelievler()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Bahçelievler"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Bahcelievler()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Bakırköy"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Bakirkoy()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Bakırköy"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Bakirkoy()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Başakşehir"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Basaksehir()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Başakşehir"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Basaksehir()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Bayrampaşa"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Bayrampasa()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Bayrampaşa"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Bayrampasa()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Beşiktaş"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Besiktas()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Beşiktaş"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Besiktas()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Beykoz"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Beykoz()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Beykoz"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Beykoz()));
+                },
+              ),
             ),
-            TextButton(
-              child: Text("Beyoğlu"),
-              style: TextButton.styleFrom(foregroundColor: Colors.black),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Beyoglu()));
-              },
+            Expanded(
+              child: TextButton(
+                child: Text("Beylikdüzü"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Beylikduzu()));
+                },
+              ),
+            ),
+            Expanded(
+              child: TextButton(
+                child: Text("Beyoğlu"),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Beyoglu()));
+                },
+              ),
             ),
           ],
         ),

@@ -82,13 +82,6 @@ class _KadikoyState extends State<Kadikoy> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Ahmet Sani Gezici Çok Programlı Anadolu Lisesi Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

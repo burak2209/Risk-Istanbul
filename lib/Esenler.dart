@@ -82,13 +82,6 @@ class _EsenlerState extends State<Esenler> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-7 Güneştepe Camii Bahçesi, Şehit Şevki Eren YETKİN Park",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

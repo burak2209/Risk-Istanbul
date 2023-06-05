@@ -1,5 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:riskistanbul/Anamenu.dart';
+import 'package:riskistanbul/Arnavutkoy.dart';
+import 'package:riskistanbul/Atasehir.dart';
+import 'package:riskistanbul/Avcilar.dart';
+import 'package:riskistanbul/Bagcilar.dart';
+import 'package:riskistanbul/Bahcelievler.dart';
+import 'package:riskistanbul/Bakirkoy.dart';
+import 'package:riskistanbul/Basaksehir.dart';
+import 'package:riskistanbul/Bayrampasa.dart';
+import 'package:riskistanbul/Besiktas.dart';
+import 'package:riskistanbul/Beykoz.dart';
+import 'package:riskistanbul/Beyoglu.dart';
+import 'package:riskistanbul/SayfaB.dart';
 
 class Adalar extends StatefulWidget {
   const Adalar({Key? key}) : super(key: key);

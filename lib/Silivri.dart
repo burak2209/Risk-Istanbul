@@ -89,13 +89,6 @@ class _SilivriState extends State<Silivri> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Leyla Kavak Caddesi Spor Sahası,İncirli Caddesi Çocuk Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

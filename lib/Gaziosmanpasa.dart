@@ -82,13 +82,6 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-Başkanlık Binası Bahçesi,Mahmut Saim Akal Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),

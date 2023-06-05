@@ -82,13 +82,6 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 color: Colors.black,
               ),
             ),
-            Text(
-              "-HALUK ÜNDEĞER ANADOLU LİSESİ                   ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
           ],
         ),
       ),
