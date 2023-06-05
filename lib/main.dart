@@ -70,3 +70,5 @@ class _anaEkranState extends State<anaEkran> {
     );
   }
 }
+
+//Deneme
