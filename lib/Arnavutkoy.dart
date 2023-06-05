@@ -15,46 +15,46 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
         title: Text("Arnavutköy"),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "ARNAVUTKÖY RİSK DURUMU",
-              style: TextStyle(
-                fontSize: 27,
-                color: Colors.green,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            children: <Widget>[
+              SizedBox(
+                height: 10,
               ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir.una göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
-              style: TextStyle(
-                fontSize: 27,
+              Text(
+                "ARNAVUTKÖY RİSK DURUMU",
+                style: TextStyle(
+                  fontSize: 27,
+                  color: Colors.green,
+                ),
+              ),
+              Divider(
+                height: 10,
                 color: Colors.black,
               ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "ARNAVUTKÖY TOPLANMA ALANLARI",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.green,
+              Text(
+                "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir.una göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
+                style: TextStyle(
+                  fontSize: 27,
+                  color: Colors.black,
+                ),
               ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Expanded(
-              child: Align(
+              SizedBox(
+                height: 10,
+              ),
+              Text(
+                "ARNAVUTKÖY TOPLANMA ALANLARI",
+                style: TextStyle(
+                  fontSize: 24,
+                  color: Colors.green,
+                ),
+              ),
+              Divider(
+                height: 10,
+                color: Colors.black,
+              ),
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Hasan Polatkan Parkı",
@@ -64,9 +64,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Aşık Veysel Parkı",
@@ -76,9 +74,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Şehit Er Sabahattin Akgül Parkı",
@@ -88,9 +84,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Engelliler Parkı",
@@ -100,9 +94,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Arnavutköy Merkez Camii",
@@ -112,9 +104,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Atatürk Parkı",
@@ -124,9 +114,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Şehit Er Tuncay Türken Parkı",
@@ -136,9 +124,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Fetih Parkı",
@@ -148,9 +134,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Şehit Er Musa Tikicieri Parkı",
@@ -160,9 +144,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Balaban Köy Meydanı",
@@ -172,9 +154,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Balaban Parkı",
@@ -184,9 +164,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Kocayusuf Parkı Hastane Hadımköy",
@@ -196,9 +174,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-M.F. Çakmak Trafik Eğitim Alanı",
@@ -208,9 +184,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Align(
+              Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
                   "-Adnan Menderes Parkı",
@@ -220,8 +194,8 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

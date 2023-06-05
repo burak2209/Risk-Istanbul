@@ -26,7 +26,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
               "BEYLİKDÜZÜ RİSK DURUMU",
               style: TextStyle(
                 fontSize: 27,
-                color: Colors.green,
+                color: Colors.red,
               ),
             ),
             Divider(
@@ -47,7 +47,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
               "BEYLİKDÜZÜ TOPLANMA ALANLARI",
               style: TextStyle(
                 fontSize: 24,
-                color: Colors.green,
+                color: Colors.red,
               ),
             ),
             Divider(
