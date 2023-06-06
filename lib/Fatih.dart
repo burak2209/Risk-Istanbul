@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Fatih extends StatefulWidget {
   const Fatih({Key? key}) : super(key: key);

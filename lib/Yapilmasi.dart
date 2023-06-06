@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/gestures.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 import 'package:riskistanbul/main.dart';
+
 void main() {
   runApp(Yapilmasi());
 }
+
 class Yapilmasi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

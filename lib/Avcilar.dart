@@ -51,32 +51,112 @@ class _AvcilarState extends State<Avcilar> {
               height: 10,
               color: Colors.black,
             ),
-            Text(
-              "-Avcılar Saide Zorlu Ticaret Meslek Lisesi Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-İnönü Ortaokulu Bahçesi, Şehit Ayhan Arslan Sok .Toplanma Alanı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-İnönü Ortaokulu Bahçesi,Şehit Ayhan Arslan Sok .ToplanmaAlanı ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Şehit Ayhan Arslan Sok .Toplanma Alanı",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-Ambarlı Mh. Kapalı Semt Pazarı , Yaylı Sokak ",
-              style: TextStyle(
-                fontSize: 21,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Ambarlı Mahallesi Kapalı Semt Pazarı, Yaylı Sokak",
+                  style: TextStyle(
+                    fontSize: 21,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
-            Text(
-              "-MUSTAFA KEMAL PAŞA MAHALLESİ TOPLANMA ALANLARI ",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.black,
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Mustafa Kemal Paşa Mahallesi Toplanma Alanları",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Firuzköy Mahallesi Fatih Sultan Mehmet Parkı",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Cihangir Mahallesi Şehit Hakan Kırdak Sokak Toplanma Alanı",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Gurupşah Mahallesi Atatürk Bulvarı Toplanma Alanı",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Denizköşkler Mahallesi Değirmen Sokak Toplanma Alanı",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "-Ambarlı Mahallesi Anaokulu Bahçesi",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.black,
+                  ),
+                ),
               ),
             ),
           ],

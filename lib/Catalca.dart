@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Catalca extends StatefulWidget {
   const Catalca({Key? key}) : super(key: key);

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Gaziosmanpasa extends StatefulWidget {
   const Gaziosmanpasa({Key? key}) : super(key: key);

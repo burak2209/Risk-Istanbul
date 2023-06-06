@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Sultanbeyli extends StatefulWidget {
   const Sultanbeyli({Key? key}) : super(key: key);

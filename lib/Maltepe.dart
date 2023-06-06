@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Maltepe extends StatefulWidget {
   const Maltepe({Key? key}) : super(key: key);

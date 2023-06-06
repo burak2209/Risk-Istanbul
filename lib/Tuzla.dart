@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Tuzla extends StatefulWidget {
   const Tuzla({Key? key}) : super(key: key);

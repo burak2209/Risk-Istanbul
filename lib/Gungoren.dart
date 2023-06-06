@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Gungoren extends StatefulWidget {
   const Gungoren({Key? key}) : super(key: key);

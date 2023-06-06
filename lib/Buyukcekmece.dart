@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:riskistanbul/Anamenu.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Buyukcekmece extends StatefulWidget {
   const Buyukcekmece({Key? key}) : super(key: key);

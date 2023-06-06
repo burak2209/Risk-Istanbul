@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Uskudar extends StatefulWidget {
   const Uskudar({Key? key}) : super(key: key);

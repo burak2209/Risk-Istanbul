@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Kartal extends StatefulWidget {
   const Kartal({Key? key}) : super(key: key);

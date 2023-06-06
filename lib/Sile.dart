@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Sile extends StatefulWidget {
   const Sile({Key? key}) : super(key: key);

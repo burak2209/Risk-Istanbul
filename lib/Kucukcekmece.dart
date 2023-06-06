@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Kucukcekmece extends StatefulWidget {
   const Kucukcekmece({Key? key}) : super(key: key);
@@ -84,6 +83,13 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
             ),
             Text(
               "-ŞHT. PİYADE ER VEDAT KUTLUCA PARKI,80. YIL PARKI",
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "-75. YIL CUMHURİYET PARKI,KONUTBİRLİK PARKI",
               style: TextStyle(
                 fontSize: 20,
                 color: Colors.black,

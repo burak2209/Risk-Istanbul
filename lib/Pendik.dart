@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Pendik extends StatefulWidget {
   const Pendik({Key? key}) : super(key: key);

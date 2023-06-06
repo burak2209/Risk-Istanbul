@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Cekmekoy extends StatefulWidget {
   const Cekmekoy({Key? key}) : super(key: key);

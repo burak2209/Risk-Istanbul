@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Eyupsultan extends StatefulWidget {
   const Eyupsultan({Key? key}) : super(key: key);

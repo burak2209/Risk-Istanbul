@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Kadikoy extends StatefulWidget {
   const Kadikoy({Key? key}) : super(key: key);

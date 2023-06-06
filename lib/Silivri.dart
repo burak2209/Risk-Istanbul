@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Silivri extends StatefulWidget {
   const Silivri({Key? key}) : super(key: key);

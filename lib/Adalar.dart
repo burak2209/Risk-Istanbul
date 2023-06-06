@@ -11,7 +11,6 @@ import 'package:riskistanbul/Bayrampasa.dart';
 import 'package:riskistanbul/Besiktas.dart';
 import 'package:riskistanbul/Beykoz.dart';
 import 'package:riskistanbul/Beyoglu.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Adalar extends StatefulWidget {
   const Adalar({Key? key}) : super(key: key);
@@ -64,60 +63,179 @@ class _AdalarState extends State<Adalar> {
                 height: 10,
                 color: Colors.black,
               ),
-              Text(
-                "BÜYÜKADA",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.orange,
-                ),
-              ),
-              Text(
-                "-MEHMET BÖLÜK PARKI , İZZET BÖLÜK PARKI ",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.black,
-                ),
-              ),
-              Text(
-                "HEYBELİADA",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.orange,
-                ),
-              ),
-              Text(
-                "-METİN SÜLÜŞ PARKI, BAHRİYE ÇEŞMESİ PARKI",
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.black,
-                ),
-              ),
-              Text(
-                "BURGAZADASI",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.orange,
-                ),
-              ),
-              Text(
-                "-SAİT FAİK MÜZE ÖNÜ,GÖNÜLLÜ ÇAY BAHÇESİ",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.black,
-                ),
-              ),
-              Text(
-                "KINALIADA",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.orange,
-                ),
-              ),
-              Text(
-                "-YARBAŞI PARKI , MANASTIRALTI ÇOCUK PARKI",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.black,
+              InteractiveViewer(
+                child: Column(
+                  children: <Widget>[
+                    Text(
+                      "BÜYÜKADA",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-MEHMET BÖLÜK PARKI",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-İZZET BÖLÜK PARKI",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "HEYBELİADA",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-METİN SÜLÜŞ PARKI",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-BAHRİYE ÇEŞMESİ PARKI",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "BURGAZADASI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-SAİT FAİK MÜZE ÖNÜ",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-GÖNÜLLÜ ÇAY BAHÇESİ",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "KINALIADA",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-YARBAŞI PARKI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-MANASTIRALTI ÇOCUK PARKI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    // Ek alanlar:
+                    Text(
+                      "BÜYÜKADA",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-DENİZ KULÜBESİ",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-ABDÜL BABA MEYDANI",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "HEYBELİADA",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-BOSTANCI SAHİLİ",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-MİLİTA SAHİLİ",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "BURGAZADASI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-EVREN SAKALLI MEYDANI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-ADALAR İSKELE MEYDANI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "KINALIADA",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    Text(
+                      "-BAHÇELİ EVLER MEYDANI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                    Text(
+                      "-GÖKÇEADA MEYDANI",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Esenler extends StatefulWidget {
   const Esenler({Key? key}) : super(key: key);

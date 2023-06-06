@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaB.dart';
 
 class Kagithane extends StatefulWidget {
   const Kagithane({Key? key}) : super(key: key);

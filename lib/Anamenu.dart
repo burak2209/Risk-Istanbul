@@ -13,7 +13,31 @@ import 'package:riskistanbul/Beykoz.dart';
 import 'package:riskistanbul/Beylikduzu.dart';
 import 'package:riskistanbul/Beyoglu.dart';
 import 'package:riskistanbul/Buyukcekmece.dart';
-import 'package:riskistanbul/SayfaB.dart';
+import 'package:riskistanbul/Catalca.dart';
+import 'package:riskistanbul/Cekmekoy.dart';
+import 'package:riskistanbul/Esenler.dart';
+import 'package:riskistanbul/Esenyurt.dart';
+import 'package:riskistanbul/Eyupsultan.dart';
+import 'package:riskistanbul/Fatih.dart';
+import 'package:riskistanbul/Gaziosmanpasa.dart';
+import 'package:riskistanbul/Gungoren.dart';
+import 'package:riskistanbul/Kadikoy.dart';
+import 'package:riskistanbul/Kagithane.dart';
+import 'package:riskistanbul/Kartal.dart';
+import 'package:riskistanbul/Kucukcekmece.dart';
+import 'package:riskistanbul/Maltepe.dart';
+import 'package:riskistanbul/Pendik.dart';
+import 'package:riskistanbul/Sancaktepe.dart';
+import 'package:riskistanbul/Sariyer.dart';
+import 'package:riskistanbul/Sile.dart';
+import 'package:riskistanbul/Silivri.dart';
+import 'package:riskistanbul/Sisli.dart';
+import 'package:riskistanbul/Sultanbeyli.dart';
+import 'package:riskistanbul/Sultangazi.dart';
+import 'package:riskistanbul/Tuzla.dart';
+import 'package:riskistanbul/Uskudar.dart';
+import 'package:riskistanbul/Zeytinburnu.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SayfaA extends StatefulWidget {
   const SayfaA({Key? key}) : super(key: key);
@@ -28,153 +52,478 @@ class _SayfaAState extends State<SayfaA> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text("Ana Menü"),
+        title: Text(
+          "Ana Menü",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Expanded(
-              child: TextButton(
-                child: Text("Öbür sayfaya geç"),
-                style: TextButton.styleFrom(foregroundColor: Colors.red),
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => SayfaB()));
-                },
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 30,
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Adalar"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Adalar", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Adalar()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Arnavutkoy"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Arnavutkoy", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Arnavutkoy()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Ataşehir"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Ataşehir", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Atasehir()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Avcılar"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Avcılar", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Avcilar()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Bağcılar"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Bağcılar", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Bagcilar()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Bahçelievler"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Bahçelievler",
+                    style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Bahcelievler()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Bakırköy"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Bakırköy", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Bakirkoy()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Başakşehir"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Başakşehir", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Basaksehir()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Bayrampaşa"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Bayrampaşa", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Bayrampasa()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Beşiktaş"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Beşiktaş", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Besiktas()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Beykoz"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Beykoz", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Beykoz()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Beylikdüzü"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Beylikdüzü", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Beylikduzu()));
                 },
               ),
-            ),
-            Expanded(
-              child: TextButton(
-                child: Text("Beyoğlu"),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Beyoğlu", style: GoogleFonts.oswald(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Beyoglu()));
                 },
               ),
-            ),
-          ],
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Büyükçekmece",
+                    style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Buyukcekmece()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Çatalca", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Catalca()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Çekmeköy", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Cekmekoy()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Esenler", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Esenler()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Esenyurt", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Esenyurt()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Eyüpsultan", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Eyupsultan()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Fatih", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Fatih()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Gaziosmanpaşa",
+                    style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Gaziosmanpasa()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Güngören", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Gungoren()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Kadıköy", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kadikoy()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Kağıthane", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kagithane()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Kartal", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kartal()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Küçükçekmece",
+                    style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Kucukcekmece()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Maltepe", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Maltepe()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Pendik", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Pendik()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Sancaktepe", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Sancaktepe()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Sarıyer", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Sariyer()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Silivri", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Silivri()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Şişli", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Sisli()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Şile", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Sile()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Sultanbeyli",
+                    style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Sultanbeyli()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Sultangazi", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Sultangazi()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Tuzla", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Tuzla()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child:
+                    Text("Ümraniye", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Uskudar()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Üsküdar", style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Uskudar()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              TextButton(
+                child: Text("Zeytinburnu",
+                    style: GoogleFonts.oswald(fontSize: 30)),
+                style: TextButton.styleFrom(foregroundColor: Colors.black),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Zeytinburnu()));
+                },
+              ),
+              Divider(
+                height: 10,
+              ),
+              SizedBox(
+                height: 30,
+              )
+            ],
+          ),
         ),
       ),
     );

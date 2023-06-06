@@ -25,7 +25,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
               Text(
                 "ARNAVUTKÖY RİSK DURUMU",
                 style: TextStyle(
-                  fontSize: 27,
+                  fontSize: 30,
                   color: Colors.green,
                 ),
               ),
@@ -46,7 +46,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
               Text(
                 "ARNAVUTKÖY TOPLANMA ALANLARI",
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 30,
                   color: Colors.green,
                 ),
               ),

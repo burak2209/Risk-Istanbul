@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:riskistanbul/SayfaC.dart';
 
 class Umraniye extends StatefulWidget {
   const Umraniye({Key? key}) : super(key: key);
