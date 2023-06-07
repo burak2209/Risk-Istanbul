@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 import 'package:riskistanbul/Yapilmasi.dart';
 
@@ -7,7 +8,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
-        title: Text("Risk İstanbul"),
+        title: Text("Risk İstanbul",style: GoogleFonts.oswald(fontSize: 32,color: Colors.white),),
         backgroundColor: Colors.black,
         centerTitle: true,
       ),
@@ -31,40 +32,49 @@ class _anaEkranState extends State<anaEkran> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Expanded(flex: 7, child: Image.asset("assets/RISK_ISTANBUL.png")),
+          SizedBox(height: 40,),
+          Expanded(flex: 4, child: Image.asset("assets/RISK_ISTANBUL.png")),
+          SizedBox(height: 100,),
           Expanded(
-            flex: 3,
+            flex: 1,
             child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: TextButton(
-                child: Image.asset("assets/yyyyy.png"),
-                style: TextButton.styleFrom(),
+              padding: const EdgeInsets.all(5.0),
+              child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Yapilmasi()));
                 },
+                child: Text("Depremde yapılması gerekenler için tıklayınız",style: GoogleFonts.oswald(fontSize: 24.5),),
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  backgroundColor: Colors.black,
+                ),
               ),
             ),
           ),
-          SizedBox(
-            height: 40,
-          ),
+          SizedBox(height: 20,),
           Expanded(
-            flex: 2,
+            flex: 1,
             child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: TextButton(
-                child: Image.asset("assets/ahmet.png"),
-                style: TextButton.styleFrom(),
+              padding: const EdgeInsets.all(3.0),
+              child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SayfaA()));
-
-                  print("giriş yapıldı");
                 },
+                child: Text("İlçelerin risk durumunu görüntülemek için tıklayınız",style: GoogleFonts.oswald(fontSize: 21.5),),
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  backgroundColor: Colors.red,
+                ),
               ),
             ),
-          )
+          ),
+          SizedBox(height: 40,)
         ],
       ),
     );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/gestures.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -13,9 +14,11 @@ class Yapilmasi extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       home: new Scaffold(
+        backgroundColor: Color(0xFF2A4A66),
         appBar: new AppBar(
-          title: new Text('RİSK İSTANBUL'),
-          backgroundColor: Colors.black,
+          title: new Text('Risk İstanbul',style: GoogleFonts.oswald(color: Color(0xFFF59110),fontSize: 25),),
+          centerTitle: true,
+          backgroundColor: Color(0xFF2A4A66),
           leading: BackButton(onPressed: () {
             Navigator.pop(context);
           }),
@@ -32,12 +35,11 @@ class Yapilmasi extends StatelessWidget {
                         new TextSpan(
                           text: 'e-Devlet toplanma alanları için ',
                           style:
-                              new TextStyle(color: Colors.black, fontSize: 17),
+                              GoogleFonts.oswald(color: Colors.white, fontSize: 25),
                         ),
                         new TextSpan(
                           text: 'Buraya Tıkla',
-                          style:
-                              new TextStyle(color: Colors.blue, fontSize: 17),
+                          style: GoogleFonts.oswald(color: Color(0xFFF59110), fontSize: 25),
                           recognizer: new TapGestureRecognizer()
                             ..onTap = () {
                               launchUrlString(
@@ -47,7 +49,7 @@ class Yapilmasi extends StatelessWidget {
                       ],
                     ),
                   ),
-                  SizedBox(height: 40),
+                  SizedBox(height: 70),
                 ],
               ),
             ),
