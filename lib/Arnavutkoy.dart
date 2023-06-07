@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Arnavutkoy extends StatefulWidget {
@@ -12,189 +13,163 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Arnavutköy"),
+        title: Text("Arnavutköy",style: GoogleFonts.oswald(fontSize: 25),),
         backgroundColor: Colors.black,
       ),
       body: SingleChildScrollView(
         child: Center(
-          child: Column(
-            children: <Widget>[
-              SizedBox(
-                height: 10,
-              ),
-              Text(
-                "ARNAVUTKÖY RİSK DURUMU",
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.green,
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                SizedBox(
+                  height: 30,
                 ),
-              ),
-              Divider(
-                height: 10,
-                color: Colors.black,
-              ),
-              Text(
-                "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir.una göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
-                style: TextStyle(
-                  fontSize: 27,
+                Center(
+                  child: Text(
+                    "ARNAVUTKÖY RİSK DURUMU",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
                   color: Colors.black,
                 ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Text(
-                "ARNAVUTKÖY TOPLANMA ALANLARI",
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.green,
+                SizedBox(
+                  height: 10,
                 ),
-              ),
-              Divider(
-                height: 10,
-                color: Colors.black,
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Hasan Polatkan Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
+                Text(
+                  "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir. Buna göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
+                  style: GoogleFonts.oswald(
+                    fontSize: 27,
                     color: Colors.black,
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Aşık Veysel Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "ARNAVUTKÖY TOPLANMA ALANLARI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Şehit Er Sabahattin Akgül Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Hasan Polatkan Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Engelliler Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Aşık Veysel Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Arnavutköy Merkez Camii",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Şehit Er Sabahattin Akgül Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Atatürk Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Engelliler Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Şehit Er Tuncay Türken Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- İ.B.B Arnavutköy Sosyal Tesisleri",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Fetih Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Arnavutköy Şehir Stadı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Şehit Er Musa Tikicieri Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Arnavutköy Kültür Merkezi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Balaban Köy Meydanı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Arnavutköy İlçe Emniyet Müdürlüğü",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Balaban Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
+                SizedBox(height: 20,),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "ARNAVUTKÖY RİSK HARİTASI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Kocayusuf Parkı Hastane Hadımköy",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
-                  ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-M.F. Çakmak Trafik Eğitim Alanı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
-                  ),
+                SizedBox(
+                  height: 20,
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "-Adnan Menderes Parkı",
-                  style: TextStyle(
-                    fontSize: 22,
-                    color: Colors.black,
-                  ),
-                ),
-              ),
-            ],
+                Image.asset("assets/ArnavutkoyRisk.png")
+              ],
+            ),
           ),
         ),
       ),
