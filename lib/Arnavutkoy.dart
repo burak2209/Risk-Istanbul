@@ -13,7 +13,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Arnavutköy",style: GoogleFonts.oswald(fontSize: 25),),
+        title: Text(
+          "Arnavutköy",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
       body: SingleChildScrollView(
@@ -57,7 +60,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   child: Text(
                     "ARNAVUTKÖY TOPLANMA ALANLARI",
                     style: GoogleFonts.oswald(
-                      fontSize: 30,
+                      fontSize: 29,
                       color: Colors.green,
                     ),
                   ),
@@ -149,7 +152,9 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                     ),
                   ),
                 ),
-                SizedBox(height: 20,),
+                SizedBox(
+                  height: 20,
+                ),
                 Align(
                   alignment: Alignment.center,
                   child: Text(
