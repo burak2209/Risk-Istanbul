@@ -26,7 +26,10 @@ class _AdalarState extends State<Adalar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Adalar",style: GoogleFonts.oswald(fontSize: 25),),
+        title: Text(
+          "Adalar",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
       body: SingleChildScrollView(
@@ -266,84 +269,6 @@ class _AdalarState extends State<Adalar> {
                   height: 20,
                 ),
                 Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "BÜYÜK ADA",
-                    style: GoogleFonts.oswald(
-                      fontSize: 30,
-                      color: Colors.green,
-                    ),
-                  ),
-                ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "- Deniz Kulübesi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 27,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "- Abdül Baba Meydanı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 27,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "HEYBELİ ADA",
-                    style: GoogleFonts.oswald(
-                      fontSize: 30,
-                      color: Colors.green,
-                    ),
-                  ),
-                ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "- Bostancı sahili",
-                    style: GoogleFonts.oswald(
-                      fontSize: 27,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "- Milita sahili",
-                    style: GoogleFonts.oswald(
-                      fontSize: 27,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                SizedBox(height: 20,),
-                Align(
                   alignment: Alignment.center,
                   child: Text(
                     "ADALAR RİSK HARİTASI",
@@ -360,8 +285,16 @@ class _AdalarState extends State<Adalar> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/adalar-risk.png"),
-                SizedBox(height: 20,)
+                Container(
+                  width: 300,
+                  height: 300,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/adalar-risk.png"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                )
               ],
             ),
           ),

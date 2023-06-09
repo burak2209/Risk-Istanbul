@@ -35,6 +35,7 @@ import 'package:riskistanbul/Sisli.dart';
 import 'package:riskistanbul/Sultanbeyli.dart';
 import 'package:riskistanbul/Sultangazi.dart';
 import 'package:riskistanbul/Tuzla.dart';
+import 'package:riskistanbul/Umraniye.dart';
 import 'package:riskistanbul/Uskudar.dart';
 import 'package:riskistanbul/Zeytinburnu.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -490,7 +491,7 @@ class _SayfaAState extends State<SayfaA> {
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Uskudar()));
+                      MaterialPageRoute(builder: (context) => Umraniye()));
                 },
               ),
               Divider(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Catalca extends StatefulWidget {
   const Catalca({Key? key}) : super(key: key);
@@ -12,76 +13,139 @@ class _CatalcaState extends State<Catalca> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Çatalca"),
+        title: Text(
+          "Çatalca",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            SizedBox(
-              height: 10,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                SizedBox(
+                  height: 30,
+                ),
+                Center(
+                  child: Text(
+                    "ÇATALCA RİSK DURUMU",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.orange,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Çatalca 2. derece deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Çatalca’daki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %6’sınınorta, %1’inin ağır ve %0.23’ünün de çok ağır hasar görmesi beklenmektedir.",
+                  style: GoogleFonts.oswald(
+                    fontSize: 27,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "ÇATALCA TOPLANMA ALANLARI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 29,
+                      color: Colors.orange,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Osmangazi Caddesi Halı Saha,Marmara Sokak Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Canik Sokak Parkı,Sultan Süleyman Caddesi Spor Alanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Örencik Caddesi Yeşil Alan,Örencik Meydan",
+                    style: GoogleFonts.oswald(
+                      fontSize: 25,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Ormanlı İlkokulu ve Ortaokulu Bahçesi,Yiğit Sokak ",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Çatalca Meydanı ",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "ÇATALCA RİSK HARİTASI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.orange,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Image.asset("assets/catalca-risk.jpg")
+              ],
             ),
-            Text(
-              "ÇATALCA RİSK DURUMU",
-              style: TextStyle(
-                fontSize: 27,
-                color: Colors.orange,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "Çatalca 2. derece deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Çatalca’daki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %6’sınınorta, %1’inin ağır ve %0.23’ünün de çok ağır hasar görmesi beklenmektedir.",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "ÇATALCA TOPLANMA ALANLARI",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.orange,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "-Osmangazi Caddesi Halı Saha,Marmara Sokak Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Canik Sokak Parkı,Sultan Süleyman Caddesi Spor Alanı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Örencik Caddesi Yeşil Alan,Örencik Meydan",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Ormanlı İlkokulu ve Ortaokulu Bahçesi,Yiğit Sokak ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );

@@ -5,10 +5,14 @@ import 'package:riskistanbul/Yapilmasi.dart';
 
 void main() {
   runApp(MaterialApp(
+    theme: ThemeData(textTheme: GoogleFonts.oswaldTextTheme()),
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
-        title: Text("Risk İstanbul",style: GoogleFonts.oswald(fontSize: 32,color: Colors.white),),
+        title: Text(
+          "Risk İstanbul",
+          style: GoogleFonts.oswald(fontSize: 32, color: Colors.white),
+        ),
         backgroundColor: Colors.black,
         centerTitle: true,
       ),
@@ -32,9 +36,13 @@ class _anaEkranState extends State<anaEkran> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          SizedBox(height: 40,),
+          SizedBox(
+            height: 40,
+          ),
           Expanded(flex: 4, child: Image.asset("assets/RISK_ISTANBUL.png")),
-          SizedBox(height: 100,),
+          SizedBox(
+            height: 100,
+          ),
           Expanded(
             flex: 1,
             child: Padding(
@@ -44,7 +52,10 @@ class _anaEkranState extends State<anaEkran> {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Yapilmasi()));
                 },
-                child: Text("Depremde yapılması gerekenler için tıklayınız",style: GoogleFonts.oswald(fontSize: 24.5),),
+                child: Text(
+                  "Depremde yapılması gerekenler için tıklayınız",
+                  style: GoogleFonts.oswald(fontSize: 24.5),
+                ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -54,7 +65,9 @@ class _anaEkranState extends State<anaEkran> {
               ),
             ),
           ),
-          SizedBox(height: 20,),
+          SizedBox(
+            height: 20,
+          ),
           Expanded(
             flex: 1,
             child: Padding(
@@ -64,7 +77,10 @@ class _anaEkranState extends State<anaEkran> {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SayfaA()));
                 },
-                child: Text("İlçelerin risk durumunu görüntülemek için tıklayınız",style: GoogleFonts.oswald(fontSize: 21.5),),
+                child: Text(
+                  "İlçelerin risk durumunu görüntülemek için tıklayınız",
+                  style: GoogleFonts.oswald(fontSize: 21.5),
+                ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -74,7 +90,9 @@ class _anaEkranState extends State<anaEkran> {
               ),
             ),
           ),
-          SizedBox(height: 40,)
+          SizedBox(
+            height: 40,
+          )
         ],
       ),
     );

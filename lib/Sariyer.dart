@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Sariyer extends StatefulWidget {
   const Sariyer({Key? key}) : super(key: key);
@@ -12,83 +13,179 @@ class _SariyerState extends State<Sariyer> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sarıyer"),
+        title: Text(
+          "Sarıyer",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            SizedBox(
-              height: 10,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                SizedBox(
+                  height: 30,
+                ),
+                Center(
+                  child: Text(
+                    "SARIYER RİSK DURUMU",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Sarıyer 3. derece deprem bölgelesidir. Mw=7.5 büyüklüğündeki senaryo depreminde, Sarıyer’deki binaların ortalama %80’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ininorta, %0,7’sinin ağır ve %0,3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  style: GoogleFonts.oswald(
+                    fontSize: 27,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "SARIYER TOPLANMA ALANLARI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 29,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Ayazağa Merkez Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Cumhuriyet Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-211.Sokak Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 25,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Belediye Evleri Yanı Park",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bahçeköy Orman Fakültesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Baltalimanı İlçe Milli Eğitim Müdürlüğü",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Darüşşafaka Yaşam Evi Bahçesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Yakup Kaptan Topçular Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Doğa Tepe Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "SARIYER RİSK HARİTASI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Image.asset("assets/sarıyer-risk.jpg")
+              ],
             ),
-            Text(
-              "SARIYER RİSK DURUMU",
-              style: TextStyle(
-                fontSize: 27,
-                color: Colors.green,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "Sarıyer 3. derece deprem bölgelesidir. Mw=7.5 büyüklüğündeki senaryo depreminde, Sarıyer’deki binaların ortalama %80’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ininorta, %0,7’sinin ağır ve %0,3’ünün de çok ağır hasar görmesi beklenmektedir. ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "SARIYER TOPLANMA ALANLARI",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.green,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "-Ayazağa Merkez Parkı,Ayazağa Merkez Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Muhtar Hikmet Bayraktar Parkı,Ahmet Büyükkuşoğlu Aile Sağlık Merkezi Önü",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Bahçeköy Orman Fakültesi,Baltalimanı İlçe Milli Eğitim Müdürlüğü Bahçesi",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Sarıyer Belediyesi Ferahevler Fen işleri Şantiye",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Şehit Komando Er Tamer Yıldız/Deniz Er Gürkan Demirtaş Arkadaşlık Parkı",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );

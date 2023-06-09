@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Basaksehir extends StatefulWidget {
@@ -13,83 +14,179 @@ class _BasaksehirState extends State<Basaksehir> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Başakşehir"),
+        title: Text(
+          "Başakşehir",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            SizedBox(
-              height: 10,
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                SizedBox(
+                  height: 30,
+                ),
+                Center(
+                  child: Text(
+                    "BAŞAKŞEHİR RİSK DURUMU",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Başakşehir Belediye Başkanı Yasin Kartoğlu, ilçenin İstanbul'da zemini en sağlam ilçelerden olduğunu söyledi. Mw=7.5 büyüklüğündeki senaryo depreminde, Başakşehir’deki binalarınortalama %62’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ününhafif, %11,5’inin orta, %2’sinin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  style: GoogleFonts.oswald(
+                    fontSize: 27,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "BAŞAKŞEHİR TOPLANMA ALANLARI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 29,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Başakşehir Çam ve Sakura Kent Ormanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Başakşehir Stadyumu",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Başakşehir Atatürk Meydanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 25,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bahçeşehir Gölet Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Tema İstanbul Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Güvercintepe Piknik Alanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Göktürk Ormanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Kayabaşı Millet Bahçesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-İkitelli Kent Meydanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "BAŞAKŞEHİR RİSK HARİTASI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Image.asset("assets/basaksehir-risk.jpg")
+              ],
             ),
-            Text(
-              "BAŞAKŞEHİR RİSK DURUMU",
-              style: TextStyle(
-                fontSize: 27,
-                color: Colors.green,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "Başakşehir Belediye Başkanı Yasin Kartoğlu, ilçenin İstanbul'da zemini en sağlam ilçelerden olduğunu söyledi. Mw=7.5 büyüklüğündeki senaryo depreminde, Başakşehir’deki binalarınortalama %62’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ününhafif, %11,5’inin orta, %2’sinin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "BAŞAKŞEHİR TOPLANMA ALANLARI",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.green,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "-Etap Kalyon Park (Metro İstasyonu Yanı)",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Koşu Yolu Park (Hürriyet Bulvarı C ve D Blok Tarafı)",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-579 Ada Park (Necati Coşan Caddesi)",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-804. Park (Başak Pazar Alanı Karşısı)",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "-Gül 12 Parkı (Deniz Altı ve Çapa Sokak Kesişimi)",
-              style: TextStyle(
-                fontSize: 22,
-                color: Colors.black,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );

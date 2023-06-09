@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bakirkoy extends StatefulWidget {
@@ -13,87 +14,169 @@ class _BakirkoyState extends State<Bakirkoy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Bakırköy"),
+        title: Text(
+          "Bakırköy",
+          style: GoogleFonts.oswald(fontSize: 25),
+        ),
         backgroundColor: Colors.black,
       ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Text(
-              "BAKIRKÖY RİSK DURUMU",
-              style: TextStyle(
-                fontSize: 27,
-                color: Colors.red,
-              ),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                SizedBox(
+                  height: 30,
+                ),
+                Center(
+                  child: Text(
+                    "BAKIRKÖY RİSK DURUMU",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Bakırköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir. Özellikle 1999 Marmara Depremi gibi büyük depremlerin yaşandığı İstanbul'da, Bakırköy İlçesi de deprem riski olan bölgelerden biridir.",
+                  style: GoogleFonts.oswald(
+                    fontSize: 27,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "BAKIRKÖY TOPLANMA ALANLARI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 29,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bakırköy Sahili",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bakırköy Cumhuriyet Meydanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Ataköy Sahil Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 25,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bakırköy Özgürlük Meydanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Yeşilköy Sahili",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bakırköy Botanik Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Florya Atatürk Ormanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "-Bakırköy İncirli Sahil Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    "BAKIRKÖY RİSK HARİTASI",
+                    style: GoogleFonts.oswald(
+                      fontSize: 30,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 10,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Image.asset("assets/bakırkoy-risk.jpg")
+              ],
             ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "Bakırköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir. Özellikle 1999 Marmara Depremi gibi büyük depremlerin yaşandığı İstanbul'da, Bakırköy İlçesi de deprem riski olan bölgelerden biridir.",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              "BAKIRKÖY TOPLANMA ALANLARI",
-              style: TextStyle(
-                fontSize: 25,
-                color: Colors.red,
-              ),
-            ),
-            Divider(
-              height: 10,
-              color: Colors.black,
-            ),
-            Text(
-              "- Ataköy 1. Kısım Mh.    Ataköy 1.Kısım Muhtarlık Yanı Parkı",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "- İstanbul    Bakırköy    Ataköy 3-4-11. Kısım Mh.    Atapark",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "- Basınköy Mh.    Bilgili Sokak Parkı",
-              style: TextStyle(
-                fontSize: 25,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "- Yeşilyurt Mh.    Çamlık Yeşil Alanı 1 2 3 4 5",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "- Zeytinlik Mh.    Gençler Caddesi Parkı",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-            Text(
-              "- Zuhuratbaba Mh.    Hüdaverdi Parkı",
-              style: TextStyle(
-                fontSize: 24,
-                color: Colors.black,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );
