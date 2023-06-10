@@ -48,6 +48,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 ),
                 Text(
                   "Başakşehir Belediye Başkanı Yasin Kartoğlu, ilçenin İstanbul'da zemini en sağlam ilçelerden olduğunu söyledi. Mw=7.5 büyüklüğündeki senaryo depreminde, Başakşehir’deki binalarınortalama %62’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ününhafif, %11,5’inin orta, %2’sinin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Başakşehir Çam ve Sakura Kent Ormanı",
+                    "- Başakşehir Çam ve Sakura Kent Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Başakşehir Stadyumu",
+                    "- Başakşehir Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Başakşehir Atatürk Meydanı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Bahçeşehir Gölet Parkı",
+                    "- Başakşehir Atatürk Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Tema İstanbul Parkı",
+                    "- Bahçeşehir Gölet Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Güvercintepe Piknik Alanı",
+                    "- Tema İstanbul Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Göktürk Ormanı",
+                    "- Güvercintepe Piknik Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kayabaşı Millet Bahçesi",
+                    "- Göktürk Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -156,7 +147,17 @@ class _BasaksehirState extends State<Basaksehir> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-İkitelli Kent Meydanı",
+                    "- Kayabaşı Millet Bahçesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- İkitelli Kent Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

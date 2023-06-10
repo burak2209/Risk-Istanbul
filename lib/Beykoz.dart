@@ -48,6 +48,7 @@ class _BeykozState extends State<Beykoz> {
                 ),
                 Text(
                   "Beykoz, iyi bir zemine sahip dolayısıyla 3. derecede yani düşük riskli bir bölge olarak biliniyor.Mw=7.5 büyüklüğündeki senaryo depreminde, Beykoz’daki binaların ortalama %79’unun hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ünün orta, %0,86’sının ağır ve %0.22’sinin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Beykoz Meydanı",
+                    "- Beykoz Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Beykoz Korusu",
+                    "- Beykoz Korusu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Anadolu Kavağı Meydanı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Paşabahçe Meydanı",
+                    "- Anadolu Kavağı Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Anadolu Hisarı Meydanı",
+                    "- Paşabahçe Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Çubuklu Sahili",
+                    "- Anadolu Hisarı Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Göksu Parkı",
+                    "- Çubuklu Sahili",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,7 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehir İlker Aktaş Parkı",
+                    "- Göksu Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -156,7 +147,17 @@ class _BeykozState extends State<Beykoz> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehit Er Murat Öndin Parkı",
+                    "- Şehir İlker Aktaş Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Şehit Er Murat Öndin Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

@@ -47,6 +47,7 @@ class _FatihState extends State<Fatih> {
                 ),
                 Text(
                   "Fatih fay hatlarına yakınlığa göre birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Fatih’teki binaların ortalama %28’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %36’sının hafif, %23’ünün orta, %8’inin ağır ve %5’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Binbirdirek Parkı ",
+                    "- Binbirdirek Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kalburcu Mehmet Parkı",
+                    "- Kalburcu Mehmet Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ayvansaray Mahkemealtı Parkı ",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Çarşamba Çukurbostan Parkı ",
+                    "- Ayvansaray Mahkemealtı Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fındıkzade Çukurbostan Şehir Parkı",
+                    "- Çarşamba Çukurbostan Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kocamustafapaşa Meydanı",
+                    "- Fındıkzade Çukurbostan Şehir Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Karagümrük Stadı",
+                    "- Kocamustafapaşa Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Aksaray Metro İstasyonu",
+                    "- Karagümrük Stadı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _FatihState extends State<Fatih> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Melek Hatun Parkı",
+                    "- Aksaray Metro İstasyonu",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Melek Hatun Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

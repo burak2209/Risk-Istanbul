@@ -47,6 +47,7 @@ class _CatalcaState extends State<Catalca> {
                 ),
                 Text(
                   "Çatalca 2. derece deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Çatalca’daki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %6’sınınorta, %1’inin ağır ve %0.23’ünün de çok ağır hasar görmesi beklenmektedir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _CatalcaState extends State<Catalca> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Osmangazi Caddesi Halı Saha,Marmara Sokak Parkı",
+                    "- Marmara Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _CatalcaState extends State<Catalca> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Canik Sokak Parkı,Sultan Süleyman Caddesi Spor Alanı",
+                    "- Canik Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _CatalcaState extends State<Catalca> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Örencik Caddesi Yeşil Alan,Örencik Meydan",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Ormanlı İlkokulu ve Ortaokulu Bahçesi,Yiğit Sokak ",
+                    "- Sultan Süleyman Caddesi Spor Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,27 @@ class _CatalcaState extends State<Catalca> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Çatalca Meydanı ",
+                    "- Örencik Caddesi Yeşil Alan, Örencik Meydan",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Ormanlı İlkokulu ve Ortaokulu Bahçesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Çatalca Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

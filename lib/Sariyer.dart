@@ -47,6 +47,7 @@ class _SariyerState extends State<Sariyer> {
                 ),
                 Text(
                   "Sarıyer 3. derece deprem bölgelesidir. Mw=7.5 büyüklüğündeki senaryo depreminde, Sarıyer’deki binaların ortalama %80’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ininorta, %0,7’sinin ağır ve %0,3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ayazağa Merkez Parkı",
+                    "- Ayazağa Merkez Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Cumhuriyet Parkı",
+                    "- Cumhuriyet Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-211.Sokak Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Belediye Evleri Yanı Park",
+                    "- 211.Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bahçeköy Orman Fakültesi",
+                    "- Belediye Evleri Yanı Park",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Baltalimanı İlçe Milli Eğitim Müdürlüğü",
+                    "- Bahçeköy Orman Fakültesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Darüşşafaka Yaşam Evi Bahçesi",
+                    "- Baltalimanı İlçe Milli Eğitim Müdürlüğü",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yakup Kaptan Topçular Parkı",
+                    "- Darüşşafaka Yaşam Evi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _SariyerState extends State<Sariyer> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Doğa Tepe Parkı",
+                    "- Yakup Kaptan Topçular Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Doğa Tepe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

@@ -47,6 +47,7 @@ class _TuzlaState extends State<Tuzla> {
                 ),
                 Text(
                   "Tuzla 1.derece riskli deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Tuzla’daki binaların ortalama %46’sının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %28’inin hafif, %19’unun orta, %5’inin ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehit J.Er Murat Aşçı Parkı",
+                    "- Şehit Jandarma Er Murat Aşçı Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-6.Cadde Parkı",
+                    "- 6.Cadde Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Sosyal Tesisler Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Ulubatlı Hasan Orta Okulu",
+                    "- Tuzla Sosyal Tesisler Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kardeşler Sokak Parkı",
+                    "- Ulubatlı Hasan Orta Okulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Osman Gazi İlk Öğretim Okulu",
+                    "- Kardeşler Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Mareşal Fevzi Çakmak Parkı",
+                    "- Osman Gazi İlk Öğretim Okulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Çınarlı Bahçe Parkı",
+                    "- Mareşal Fevzi Çakmak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _TuzlaState extends State<Tuzla> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kardelen Parkı",
+                    "- Çınarlı Bahçe Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Kardelen Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

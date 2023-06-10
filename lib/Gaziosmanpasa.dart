@@ -47,6 +47,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 ),
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Gaziosmanpaşa’daki binaların ortalama %67’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %23’ünün hafif, %8’sinin orta, %1,5’inin ağır ve % 0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Gaziosmanpaşa Meydanı",
+                    "- Gaziosmanpaşa Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Belediye Hizmet Binası",
+                    "- Belediye Hizmet Binası",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bayrampaşa - Gaziosmanpaşa Spor Kompleksi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Yıldıztabya Parkı",
+                    "- Bayrampaşa - Gaziosmanpaşa Spor Kompleksi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Eyüp Sultan Camii Meydanı",
+                    "- Yıldıztabya Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Karadeniz Caddesi Parkıı",
+                    "- Karadeniz Caddesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Aydos Ormanı",
+                    "- Aydos Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Güneşli Parkı",
+                    "- Güneşli Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,7 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Sultançiftliği Parkı",
+                    "- Sultançiftliği Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

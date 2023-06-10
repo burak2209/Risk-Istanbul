@@ -47,6 +47,7 @@ class _MaltepeState extends State<Maltepe> {
                 ),
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Maltepe birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Maltepe’deki binaların ortalama %57’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %28’inin hafif, %12’sininorta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehit Yaşar Yeniören Parkı",
+                    "- Şehit Yaşar Yeniören Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fahri Kasapoğlu Camii Karşısı Boş Alan",
+                    "- Fahri Kasapoğlu Camii Karşısı Boş Alan",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Seren Sokak Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Özgürlük Parkı ",
+                    "- Seren Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Asım Kara Gülsuyu Spor Tesisi",
+                    "- Özgürlük Parkı ",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Zümrütevler Pazar Yeri ve Çevresi",
+                    "- Asım Kara Gülsuyu Spor Tesisi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Üçyürek Parkı ",
+                    "- Zümrütevler Pazar Yeri ve Çevresi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kani Paşa Caddesi Parkı(Özgecan Aslan Parkı)",
+                    "- Üçyürek Parkı ",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _MaltepeState extends State<Maltepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Petrol Sokak Parkı",
+                    "- Kani Paşa Caddesi Parkı(Özgecan Aslan Parkı)",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Petrol Sokak Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

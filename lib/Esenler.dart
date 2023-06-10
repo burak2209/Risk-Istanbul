@@ -47,6 +47,7 @@ class _EsenlerState extends State<Esenler> {
                 ),
                 Text(
                   "Esenler 2. derece deprem bölgesi olarak geçmektedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Esenler’deki binaların ortalama %46’sının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %33’ünün hafif, %16’sının orta, %3’ünün ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenler Atış Poligonu",
+                    "- Esenler Atış Poligonu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bayrampaşa - Maltepe Parkı",
+                    "- Bayrampaşa - Maltepe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenler Stadyumu",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-İstanbul Şehir Üniversitesi Kampüsü",
+                    "- Esenler Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yunus Emre Parkı",
+                    "- İstanbul Şehir Üniversitesi Kampüsü",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şirinevler Parkı",
+                    "- Yunus Emre Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Akıncılar Mesire Alanı",
+                    "- Şirinevler Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fatih Parkı",
+                    "- Akıncılar Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _EsenlerState extends State<Esenler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Talatpaşa Caddesi Parkı",
+                    "- Fatih Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Talatpaşa Caddesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

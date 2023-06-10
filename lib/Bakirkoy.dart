@@ -48,6 +48,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 ),
                 Text(
                   "Bakırköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir. Özellikle 1999 Marmara Depremi gibi büyük depremlerin yaşandığı İstanbul'da, Bakırköy İlçesi de deprem riski olan bölgelerden biridir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bakırköy Sahili",
+                    "- Bakırköy Sahili",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bakırköy Cumhuriyet Meydanı",
+                    "- Bakırköy Cumhuriyet Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ataköy Sahil Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Bakırköy Özgürlük Meydanı",
+                    "- Ataköy Sahil Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yeşilköy Sahili",
+                    "- Bakırköy Özgürlük Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bakırköy Botanik Parkı",
+                    "- Yeşilköy Sahili",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Florya Atatürk Ormanı",
+                    "- Bakırköy Botanik Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,17 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bakırköy İncirli Sahil Parkı",
+                    "- Florya Atatürk Ormanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Bakırköy İncirli Sahil Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

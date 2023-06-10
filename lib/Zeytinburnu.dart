@@ -14,7 +14,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "ZEYTİNBURNU",
+          "Zeytinburnu",
           style: GoogleFonts.oswald(fontSize: 25),
         ),
         backgroundColor: Colors.black,
@@ -47,6 +47,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 ),
                 Text(
                   "Zeytinburnu ilçesi Kuzey Anadolu Fayı'na yakın olması nedeniyle birinci dereceden deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Zeytinburnu’ndaki binalarınortalama %27’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %40’ınınhafif, %24’ünün orta, %6’sının ağır ve %3’ünün de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ZEYTİNBURNU STADYUMU",
+                    "- Zeytinburnu Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-OKULLAR BÖLGESİ",
+                    "- Okullar Bölgesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ZEYTİNBURNU KIZ ANADOLU İMAM HATİP LİSESİ",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-HALUK ÜNDEĞER ANADOLU LİSESİ",
+                    "- Zeytinburnu Kız Anadolu İmam Hatip Lisesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-SEYYİD NİZAM CAMİİ BAHÇESİ",
+                    "- Haluk Ündeğer Anadolu Lisesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-TERCÜMAN SİTESİ E5 YANYOL",
+                    "- Seyyid Nizam Camii Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ZEYTİNBURNU MİLLET BAHÇESİ",
+                    "- Tercüman Sitesi E5 Yanyol",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-PANAROMA 1453 PARKI",
+                    "- Zeytinburnu Millet Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ZEYTİNBURNU 15 TEMMUZ MEYDANI",
+                    "- Panaroma 1453 Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Zeytinburnu 15 Temmuz Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

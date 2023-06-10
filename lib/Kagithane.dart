@@ -47,6 +47,7 @@ class _KagithaneState extends State<Kagithane> {
                 ),
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Kağıthane’deki binaların ortalama %73’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’ünün hafif, %6’ininorta, %0,7’inin ağır ve %0,3’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kağıthane Meydanı",
+                    "- Kağıthane Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Seyrantepe Stadyumu",
+                    "- Seyrantepe Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kağıthane Belediye Hizmet Binası",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Alibeyköy Cep Otogarı",
+                    "- Kağıthane Belediye Hizmet Binası",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Eyüp Sultan Camii Meydanı",
+                    "- Fatih Sultan Mehmet Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fatih Sultan Mehmet Ormanı",
+                    "- Kağıthane Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kağıthane Ormanı",
+                    "- Kağıthane Kültür Merkezi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,17 +136,7 @@ class _KagithaneState extends State<Kagithane> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kağıthane Kültür Merkezi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 27,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Hamidiye Camii Meydanı",
+                    "- Hamidiye Camii Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

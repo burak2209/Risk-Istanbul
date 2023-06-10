@@ -47,6 +47,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 ),
                 Text(
                   "Eyüp semti İstanbul deprem riski haritasına göre 2. ve 3. derece riskli ilçeler arasında yer alıyor.Eyüpsultan'da yaşayan veya bu ilçede bir konut edinmeyi düşünen kişilerin, yapıların deprem güvenliği ve yapı denetimine ilişkin belgeleri incelemeleri, gerekirse uzman görüşü almalı ve depreme dayanıklılık konusunda titizlikle hareket etmeleri önemlidir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Eyüp Sultan Meydanı",
+                    "- Alibeyköy Cep Otogarı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-İBB BARIŞ MANCO PARKI",
+                    "- Eyüp Sultan Camii Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-AKŞEMSETTİN PARKI",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-VEYSEL KARANİ PARKI ",
+                    "- Eyüp Sultan Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-OSMANLI PARKI VE SPOR ALANLARI",
+                    "- İBB Barış Manço Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT İBRAHİM CANDEMİR PARKI",
+                    "- Akşemsettin Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-EYÜPSULTAN DEVLET HASTANESİ ÖNÜ(Tekke Parkı)",
+                    "- Veysel Karani Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT ADEM YAŞARİ PARKI",
+                    "- Osmanlı Parkı ve Spor Alanları",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,37 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-GÜRBÜZLER SOKAK FUTBOL SAHASI",
+                    "- Şehit İbrahim Candemir Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Eyüpsultan Devlet Hastanesi Önü (Tekke Parkı)",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Şehit Adem Yaşarı Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Gürbüzler Sokak Futbol Sahası",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

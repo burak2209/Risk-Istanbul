@@ -47,6 +47,7 @@ class _GungorenState extends State<Gungoren> {
                 ),
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Güngören birinci derece risklidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Güngören’deki binalarınortalama %27’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %42’sininhafif, % 22’sinin orta, % 6’sının ağır ve % 3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT ER HASAN SORMA PARKI",
+                    "- Şehit Er Hasan Sorma Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEYH ŞAMİL PARKI",
+                    "- Şeyh Şamil Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,7 +96,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT ÖZCAN CANİK PARKI",
+                    "- Şehit Özcan Canik Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 25,
                       color: Colors.black,
@@ -105,7 +106,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-YAVUZ SELİM CADDESİ PARKI",
+                    "- Yavuz Selim Caddesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +116,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-75. YIL PARKI",
+                    "- 75. Yıl Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +126,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-METRO PARKI VE SPOR ALANI",
+                    "- Metro Parkı ve Spor Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +136,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT ER HASAN SORMA PARKI",
+                    "- Şehit Er Hasan Sorma Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +146,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT ÖZCAN CANİK PARKI",
+                    "- Şehit Özcan Canik Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +156,7 @@ class _GungorenState extends State<Gungoren> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-YAVUZ SELİM CADDESİ PARKI",
+                    "- Yavuz Selim Caddesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

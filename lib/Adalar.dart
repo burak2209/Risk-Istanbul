@@ -59,7 +59,8 @@ class _AdalarState extends State<Adalar> {
                   height: 10,
                 ),
                 Text(
-                  "7.5 büyüklüğündeki senaryo depreminde, Adalar’daki binaların ortalama%23’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %29’unun hafif,%30’unun orta, %12’sinin ağır ve %6’sının da çok ağır hasar görmesi beklenmektedir.Adalar’daki binaların ortalama %48’inin (yaklaşık 3.050 bina) orta ve üstü seviyede hasar göreceği tahmin edilmektedir. Yaklaşık 3.343 binanın ise, hasarsız veya hafif hasarlı olması beklenmektedir.",
+                  "7.5 büyüklüğündeki senaryo depreminde, Adalar’daki binaların ortalama %23’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %29’unun hafif,%30’unun orta, %12’sinin ağır ve %6’sının da çok ağır hasar görmesi beklenmektedir.Adalar’daki binaların ortalama %48’inin (yaklaşık 3.050 bina) orta ve üstü seviyede hasar göreceği tahmin edilmektedir. Yaklaşık 3.343 binanın ise, hasarsız veya hafif hasarlı olması beklenmektedir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -98,9 +99,12 @@ class _AdalarState extends State<Adalar> {
                     ),
                   ),
                 ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
+                Padding(
+                  padding: EdgeInsets.only(right: 367),
+                  child: Divider(
+                    height: 10,
+                    color: Colors.black,
+                  ),
                 ),
                 SizedBox(
                   height: 10,
@@ -138,9 +142,12 @@ class _AdalarState extends State<Adalar> {
                     ),
                   ),
                 ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
+                Padding(
+                  padding: EdgeInsets.only(right: 353),
+                  child: Divider(
+                    height: 10,
+                    color: Colors.black,
+                  ),
                 ),
                 SizedBox(
                   height: 10,
@@ -178,9 +185,12 @@ class _AdalarState extends State<Adalar> {
                     ),
                   ),
                 ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
+                Padding(
+                  padding: EdgeInsets.only(right: 353),
+                  child: Divider(
+                    height: 10,
+                    color: Colors.black,
+                  ),
                 ),
                 SizedBox(
                   height: 10,
@@ -238,9 +248,12 @@ class _AdalarState extends State<Adalar> {
                     ),
                   ),
                 ),
-                Divider(
-                  height: 10,
-                  color: Colors.black,
+                Padding(
+                  padding: EdgeInsets.only(right: 373),
+                  child: Divider(
+                    height: 10,
+                    color: Colors.black,
+                  ),
                 ),
                 SizedBox(
                   height: 10,
@@ -286,8 +299,8 @@ class _AdalarState extends State<Adalar> {
                   height: 20,
                 ),
                 Container(
-                  width: 300,
-                  height: 300,
+                  width: 640,
+                  height: 455,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/adalar-risk.png"),
                   ),

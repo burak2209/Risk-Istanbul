@@ -47,6 +47,7 @@ class _KartalState extends State<Kartal> {
                 ),
                 Text(
                   "İstanbul en büyük risk altında ve en eski yerleşim yerlerinden biri de Kartal.Mw=7.5 büyüklüğündeki senaryo depreminde, Kartal’daki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %27’sinin hafif, %10’unun orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kartal Meydanı",
+                    "- Kartal Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kartal Stadyumu",
+                    "- Kartal Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Soğanlık Spor Kompleksi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Dragos Sahili",
+                    "- Soğanlık Spor Kompleksi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Orhantepe Parkı",
+                    "- Dragos Sahili",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenkent Parkı",
+                    "- Orhantepe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Soğanlık Sahili",
+                    "- Esenkent Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,17 @@ class _KartalState extends State<Kartal> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Orhantepe Camii Meydanı",
+                    "- Soğanlık Sahili",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Orhantepe Camii Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

@@ -47,6 +47,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 ),
                 Text(
                   "Bayrampaşa İstanbul deprem risk haritasına göre 2. Derece deprem bölgesi olarak değerlendiriliyor 7.5 büyüklüğündeki senaryo depreminde, Bayrampaşa’daki binaların ortalama %37’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %35’inin hafif, %19’unun orta, %6’sının ağır ve %3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Forum İstanbul",
+                    "- Forum İstanbul",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bayrampaşa Olimpik Yüzme Havuzu",
+                    "- Bayrampaşa Olimpik Yüzme Havuzu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Göztepe Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Abdi İpekçi Parkı",
+                    "- Göztepe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bayrampaşa Atatürk Caddesi",
+                    "- Abdi İpekçi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Maltepe Cemevi",
+                    "- Bayrampaşa Atatürk Caddesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bayrampaşa Kültür Merkezi",
+                    "- Maltepe Cemevi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Vatan Caddesi",
+                    "- Bayrampaşa Kültür Merkezi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kocatepe Camii",
+                    "- Vatan Caddesi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Kocatepe Camii",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

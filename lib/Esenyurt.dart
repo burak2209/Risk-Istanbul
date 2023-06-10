@@ -47,6 +47,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 ),
                 Text(
                   "Esenyurt 2. derece deprem bölgesi olarak geçmektedir. Mw=7.5 büyüklüğündeki senaryo depreminde, Esenyurt’taki binaların ortalama %36’sının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %38’inin hafif, %20’sinin orta, %4’ünün ağır ve %1,4’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenyurt Meydanı",
+                    "- Esenyurt Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Marmara Park Alışveriş Merkezi",
+                    "- Marmara Park Alışveriş Merkezi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenyurt Üniversitesi Kampüsü",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Belediye Hizmet Binası",
+                    "- Esenyurt Üniversitesi Kampüsü",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Cumhuriyet Mahallesi Parkı",
+                    "- Belediye Hizmet Binası",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenkent Parkı",
+                    "- Cumhuriyet Mahallesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,17 @@ class _EsenyurtState extends State<Esenyurt> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Esenyurt Ormanı",
+                    "- Esenkent Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Esenyurt Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

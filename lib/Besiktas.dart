@@ -48,6 +48,7 @@ class _BesiktasState extends State<Besiktas> {
                 ),
                 Text(
                   "e Mw=7.5 büyüklüğündeki senaryo depreminde, Beşiktaş’taki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sinin hafif, %6,5’inin orta, %1’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Beşiktaş Meydanı",
+                    "- Beşiktaş Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Abbasağa Parkı",
+                    "- Abbasağa Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bebek Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-İnönü Stadyumu Çevresi",
+                    "- Bebek Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Dolmabahçe Sahil Yolu",
+                    "- İnönü Stadyumu Çevresi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yıldız Parkı",
+                    "- Dolmabahçe Sahil Yolu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Barbaros Bulvarı",
+                    "- Yıldız Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,7 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Levent Metro İstasyonu",
+                    "- Barbaros Bulvarı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -156,7 +147,17 @@ class _BesiktasState extends State<Besiktas> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Akaretler Sıraevler",
+                    "- Levent Metro İstasyonu",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Akaretler Sıraevler",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

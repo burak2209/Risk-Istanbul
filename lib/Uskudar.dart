@@ -47,6 +47,7 @@ class _UskudarState extends State<Uskudar> {
                 ),
                 Text(
                   "Üsküdar 2.derece risk taşıyan deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Üsküdar’daki binaların ortalama %67’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %23’ünün hafif, %8’ininorta, %1,5’unun ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-TÜRK TELEKOM BÖLGE MÜDR. ARKA BAHÇESİ",
+                    "- Türk Telekom Bölge Müdr. Arka Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-BARIŞ MANÇO PARKI",
+                    "- Barış Manço Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-75. YIL CUMHURİYET PARKI",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-A YILDIRIM PARKI",
+                    "- 75. Yıl Cumhuriyet Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-TULUMBACILAR PARKI",
+                    "- Abdulvahab Yıldırım Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ÇAMLI BAHÇE PARKI",
+                    "- Tulumbacılar Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT MUHAMMED DURRA PARKI",
+                    "- Çamlı Bahçe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-MAVİ MARMARA PARKI",
+                    "- Şehit Muhammed Durra Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _UskudarState extends State<Uskudar> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-SÜLEYMAN KULE PARKI",
+                    "- Mavi Marmara Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Süleyman Kule Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

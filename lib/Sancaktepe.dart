@@ -47,6 +47,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 ),
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Sancaktepe birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Sancaktepe’deki binalarınortalama %68’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %22’sininhafif, %8’inin orta, %1,5’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT SEDAT BUGAN PARKI",
+                    "- Şehit Sedat Bugan Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT MURATKARATAŞ PARKI",
+                    "- Şehit Muratkarataş Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,7 +96,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ATATÜRK PARKI",
+                    "- Atatürk Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 25,
                       color: Colors.black,
@@ -105,7 +106,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ABDURRAHMANGAZİ PARKI",
+                    "- Abdurrahmangazi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +116,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-IHLAMUR KOŞU PARKI",
+                    "- Ihlamur Koşu Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +126,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-HASAN BASRİ PARKI",
+                    "- Hasan Basri Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +136,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ZÜBEYDE HANIM PARKI",
+                    "- Zübeyde Hanım Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +146,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-AFACAN ÇOCUK PARK",
+                    "- Afacan Çocuk Park",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +156,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-KELEBEK PARKI",
+                    "- Kelebek Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

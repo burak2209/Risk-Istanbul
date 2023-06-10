@@ -47,6 +47,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 ),
                 Text(
                   "Çekmeköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir.e Mw=7.5 büyüklüğündeki senaryo depreminde, Çekmeköy’deki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %16’sının hafif, %5’ininorta, %0.533’ünün ağır ve %0.07’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Taşdelen Mesire Alanı",
+                    "- Taşdelen Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Reşadiye Mesire Alanı",
+                    "- Reşadiye Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,7 +96,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Alemdağ Ormanı",
+                    "- Alemdağ Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 25,
                       color: Colors.black,
@@ -105,7 +106,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Samandıra Mesire Alanı",
+                    "- Samandıra Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +116,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Çamlıca Ormanı",
+                    "- Çamlıca Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +126,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Aydos Ormanı",
+                    "- Aydos Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +136,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Taşburun Mesire Alanı",
+                    "- Taşburun Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +146,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ağlayan Kaya Tabiat Parkı",
+                    "- Ağlayan Kaya Tabiat Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +156,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Göçbeyli Tabiat Parkı",
+                    "- Göçbeyli Tabiat Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

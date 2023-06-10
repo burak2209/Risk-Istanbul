@@ -47,6 +47,7 @@ class _SisliState extends State<Sisli> {
                 ),
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Şişli’deki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %21’inin hafif, %5’ininorta, %1’inin ağır ve yine yaklaşık %1’inin de çok ağır hasar görmesi beklenmektedir. Şişli’de,analiz edilen toplam bina sayısı 20.689’dur",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şişli Meydanı",
+                    "- Şişli Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Cemal Reşit Rey Konser Salonu",
+                    "- Cemal Reşit Rey Konser Salonu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Harbiye Askeri Müze ve Kültür Sitesi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Teşvikiye Camii Meydanı",
+                    "- Harbiye Askeri Müze ve Kültür Sitesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Nişantaşı Meydanı",
+                    "- Teşvikiye Camii Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şişli Camii Meydanı",
+                    "- Nişantaşı Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,17 @@ class _SisliState extends State<Sisli> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-19 Mayıs Mah., Dr. Şevketbey Sok., No:9",
+                    "- Şişli Camii Meydanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- 19 Mayıs Mah., Dr. Şevketbey Sok., No:9",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

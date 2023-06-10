@@ -48,6 +48,7 @@ class _BeyogluState extends State<Beyoglu> {
                 ),
                 Text(
                   "Fay İstanbul'un içinden geçmez ama hemen güneyinde yer alır ve özellikle yerleşmenin Marmara'ya olan kıyı kesiminde I. derece deprem kuşağında yer almasına neden olur. Mw=7.5 büyüklüğündeki senaryo depreminde, Beyoğlu’ndaki binaların ortalama %58’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %26’sının hafif, %11’ininorta, %3’ünün ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Muhtarlık etrafı yeşil alanlar",
+                    "- Muhtarlık etrafı yeşil alanlar",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şişhane otoparkı üstü",
+                    "- Şişhane otoparkı üstü",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Cihangir Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Recep Tayyip Erdoğan  Stadyumu",
+                    "- Cihangir Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Halıcıoğlu Yanyol Caddesi",
+                    "- Recep Tayyip Erdoğan Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Taksim Meydanı",
+                    "- Halıcıoğlu Yanyol Caddesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ferit Güleryüz Parkı",
+                    "- Taksim Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Abdüsselam Parkı ve etrafı",
+                    "- Ferit Güleryüz Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -156,7 +147,17 @@ class _BeyogluState extends State<Beyoglu> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kadımehmet Semt Konağı",
+                    "- Abdüsselam Parkı ve etrafı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Kadımehmet Semt Konağı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

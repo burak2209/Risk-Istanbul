@@ -48,6 +48,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 ),
                 Text(
                   "Büyükçekmece 2. derece deprem bölgelerine girmektedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Büyükçekmece’deki binalarınortalama %42’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %30’ununhafif, %21’ünün orta, %5’inin ağır ve %2 ’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Büyükçekmece Belediye Meydanı",
+                    "- Büyükçekmece Belediye Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Büyükçekmece Atatürk Parkı",
+                    "- Büyükçekmece Atatürk Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Mimar Sinan Mahallesi Atatürk Caddesi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Büyükçekmece E-5 Karayolu",
+                    "- Mimar Sinan Mahallesi Atatürk Caddesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Büyükçekmece Kır Bahçesi",
+                    "- Büyükçekmece E-5 Karayolu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Büyükçekmece Atatürk Spor Kompleksi",
+                    "- Büyükçekmece Kır Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,17 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Tepecik Sosyal Tesisleri",
+                    "- Büyükçekmece Atatürk Spor Kompleksi",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Tepecik Sosyal Tesisleri",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

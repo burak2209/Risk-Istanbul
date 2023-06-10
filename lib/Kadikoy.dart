@@ -47,6 +47,7 @@ class _KadikoyState extends State<Kadikoy> {
                 ),
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Kadıköy birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Kadıköy’deki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %27’sinin hafif, %10’unun orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir.",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kazasker Shell Karşısı Yeşi Alan",
+                    "- Kazasker Shell Karşısı Yeşil Alan",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Özdemiroğlu İmam Hatip Orta Okulu Bahçesi",
+                    "- Özdemiroğlu İmam Hatip Orta Okulu Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Hayrullah Kefoğlu Anadolu Lisesi Bahçesi",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Bostancı Gösteri Merkezi Bahçesi",
+                    "- Hayrullah Kefoğlu Anadolu Lisesi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-50. Yıl Tahran Anadolu Lisesi Bahçesi",
+                    "- Bostancı Gösteri Merkezi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Atatürk Fen Lisesi Bahçesi",
+                    "- 50. Yıl Tahran Anadolu Lisesi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Feneryolu Halk Eğitim Merkezi Bahçesi",
+                    "- Atatürk Fen Lisesi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Aden Tenis Akademisi ve Yanı Basket Sahaları",
+                    "- Feneryolu Halk Eğitim Merkezi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _KadikoyState extends State<Kadikoy> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Eski Koşuyolu Kalp Hastanesi Bahçesi",
+                    "- Aden Tenis Akademisi ve Yanı Basket Sahaları",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Eski Koşuyolu Kalp Hastanesi Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

@@ -47,6 +47,7 @@ class _SileState extends State<Sile> {
                 ),
                 Text(
                   "Şile 2. derece deprem bölgelesidir. Mw=7.5 büyüklüğündeki senaryo depreminde, Şile’deki binaların ortalama %83,2’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %12’sinin hafif, %4’ünün orta, %0,6’sının ağır ve %0,2’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Avcıkoru Camii ve Park Alanı",
+                    "- Avcıkoru Camii ve Park Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fatma Seher Orta Okulu ve Bahçesi",
+                    "- Fatma Seher Orta Okulu ve Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Boş Camii ve Kültürel Tesis Alanı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Muhtarlık Bina Bahçesi ve Köy Konağı",
+                    "- Boş Camii ve Kültürel Tesis Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Spor Tesis Alanı-İHA",
+                    "- Muhtarlık Bina Bahçesi ve Köy Konağı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Köy Konağı Alanı ve Camii Alanı",
+                    "- Spor Tesis Alanı(İHA)",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Camii ve Meydan",
+                    "- Köy Konağı Alanı ve Camii Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,17 @@ class _SileState extends State<Sile> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Akçakese Basketbol Sahası",
+                    "- Köy Camii ve Meydan",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Akçakese Basketbol Sahası",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

@@ -5,7 +5,7 @@ import 'package:riskistanbul/Yapilmasi.dart';
 
 void main() {
   runApp(MaterialApp(
-    theme: ThemeData(textTheme: GoogleFonts.oswaldTextTheme()),
+    theme: ThemeData(fontFamily: "Oswald"),
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
@@ -54,7 +54,7 @@ class _anaEkranState extends State<anaEkran> {
                 },
                 child: Text(
                   "Depremde yapılması gerekenler için tıklayınız",
-                  style: GoogleFonts.oswald(fontSize: 24.5),
+                  style: GoogleFonts.oswald(fontSize: 29.5),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -79,7 +79,7 @@ class _anaEkranState extends State<anaEkran> {
                 },
                 child: Text(
                   "İlçelerin risk durumunu görüntülemek için tıklayınız",
-                  style: GoogleFonts.oswald(fontSize: 21.5),
+                  style: GoogleFonts.oswald(fontSize: 26),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(

@@ -47,6 +47,7 @@ class _SultangaziState extends State<Sultangazi> {
                 ),
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Sultangazi’deki binalarınortalama %73’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sininhafif, %5,8’inin orta, %1’inin ağır ve %0,2’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Sultangazi Meydanı",
+                    "- Sultangazi Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Atatürk Mahallesi Parkı",
+                    "- Atatürk Mahallesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Sultangazi Stadyumu",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Sultançiftliği Mesire Alanı",
+                    "- Sultangazi Stadyumu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Habipler Parkı",
+                    "- Sultançiftliği Mesire Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Gazi Mahallesi Parkı",
+                    "- Habipler Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fatih Caddesi",
+                    "- Gazi Mahallesi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-İsmail Hakkı Tonguç Parkı",
+                    "- Fatih Caddesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _SultangaziState extends State<Sultangazi> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Gaziosmanpaşa Şehitlik Parkı",
+                    "- İsmail Hakkı Tonguç Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Gaziosmanpaşa Şehitlik Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

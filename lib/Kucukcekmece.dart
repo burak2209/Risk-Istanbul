@@ -47,6 +47,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 ),
                 Text(
                   "İstanbul deprem haritası içinde fay hatlarına yakınlığa göre Küçükçekmece birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Küçükçekmece’deki binalarınortalama %34’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %34’ününhafif, %22’sinin orta, %7’sinin ağır ve %3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞHT.PİYADE ER ABDURRAHMAN DOĞAN PARKI",
+                    "- Şht. Piyade Er Abdurrahman Doğan Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-HASANOĞLU DERESİ VE KANUNİ SULTAN SÜLEYMAN PARKI",
+                    "- Kanuni Sultan Süleyman Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-MUSTAFA MERT PEKER PARKI VE AÇIK SABİT PAZAR ALANI ",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Kirazlı Parkı",
+                    "- Hasanoğlu Deresi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞHT. PİYADE UZMAN ÇAVUŞ MUSTAFA UYSAL PARKI",
+                    "- Mustafa Mert Peker Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞEHİT PİYADE ER LOKMAN EKER PARKI",
+                    "- Açık Sabit Pazar Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-SULTAN MURAT KAPALI PAZAR ALANI",
+                    "- Kirazlı Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-ŞHT. PİYADE ER VEDAT KUTLUCA PARKI ",
+                    "- Şht. Piyade Uzman Çavuş Mustafa Uysal Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,37 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-75. YIL CUMHURİYET PARKI",
+                    "- Şehit Piyade Er Lokman Eker Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Sultan Murat Kapalı Pazar Alanı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Şht. Piyade Er Vedat Kutluca Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- 75. Yıl Cumhuriyet Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

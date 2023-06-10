@@ -47,6 +47,7 @@ class _PendikState extends State<Pendik> {
                 ),
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Pendik birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Pendik’teki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %26’sının hafif, %11’inin orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yenişehir Mahallesi Muhtarlık Yanı Parkı",
+                    "- Yenişehir Mahallesi Muhtarlık Yanı Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Gazi Caddesi Orhanlı Caddesi Keşişimi Parkı",
+                    "- Gazi Caddesi Orhanlı Caddesi Keşişimi Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehit Bekçi Şaban ARAS Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Mehmet KÜLTÜR Parkı",
+                    "- Şehit Bekçi Şaban ARAS Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Marmara Eğitim Hastanesi Arka Alanı",
+                    "- Mehmet KÜLTÜR Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Milli Egemenlik Park",
+                    "- Marmara Eğitim Hastanesi Arka Alanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şeh.Tğm. Turgay Karaman Parkı",
+                    "- Milli Egemenlik Park",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ertuğrul Gazi Parkı ",
+                    "- Şeh.Tğm. Turgay Karaman Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,17 @@ class _PendikState extends State<Pendik> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şht.Murat Çelik Parkı ",
+                    "- Ertuğrul Gazi Parkı ",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Şht.Murat Çelik Parkı ",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

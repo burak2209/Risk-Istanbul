@@ -47,6 +47,7 @@ class _UmraniyeState extends State<Umraniye> {
                 ),
                 Text(
                   "Ümraniye düşük riskli deprem bölgesi olarak biliniyor.Mw=7.5 büyüklüğündeki senaryo depreminde, Ümraniye’deki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sinin hafif, %7’sinin orta, %0,9’unun ağır ve %0,1’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -75,7 +76,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ümraniye Yavuz Selim Ortaokulu",
+                    "- Ümraniye Yavuz Selim Ortaokulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -85,7 +86,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Mehmet Akif Ersoy İmam Hatip Ortaokulu",
+                    "- Mehmet Akif Ersoy İmam Hatip Ortaokulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -95,17 +96,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Nihat Sami Banarlı Ortaokulu",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Nihat Sami Banarlı Ortaokulu",
+                    "- Nihat Sami Banarlı Ortaokulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -115,7 +106,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şehit Erol İnce Kız Anadolu İmam Hatip Lisesi",
+                    "- Şehit Erol İnce Kız Anadolu İmam Hatip Lisesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -125,7 +116,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Özel Ümraniye Modern Bilimler Akademisi",
+                    "- Özel Ümraniye Modern Bilimler Akademisi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -135,7 +126,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Namık Kemal Anadolu İmam Hatip Lisesi",
+                    "- Namık Kemal Anadolu İmam Hatip Lisesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -145,7 +136,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Ümraniye Şehit Erol Olçok Kız Anadolu İmam Hatip Lisesi",
+                    "- Şehit Erol Olçok Kız Anadolu İmam Hatip Lisesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -155,7 +146,7 @@ class _UmraniyeState extends State<Umraniye> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-TOGEM-DER Özel Eğitim Meslek Okulu",
+                    "- TOGEM-DER Özel Eğitim Meslek Okulu",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,

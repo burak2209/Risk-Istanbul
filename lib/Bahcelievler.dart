@@ -48,6 +48,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 ),
                 Text(
                   "Bahçelievler İstanbul deprem risk haritasına göre 1. Derece deprem bölgesi olarak değerlendiriliyor. Buna göre Mw=7.5 büyüklüğündeki senaryo depreminde, Bahçelievler’deki binalarınortalama %24’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %42’sininhafif, %25’inin orta, %6’sının ağır ve %3’ünün de çok ağır hasar görmesi beklenmektedir. ",
+                  textAlign: TextAlign.justify,
                   style: GoogleFonts.oswald(
                     fontSize: 27,
                     color: Colors.black,
@@ -76,7 +77,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bahçelievler Kent Meydanı",
+                    "- Bahçelievler Kent Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -86,7 +87,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Şirinevler Meydanı",
+                    "- Şirinevler Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -96,17 +97,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Kocasinan Parkı",
-                    style: GoogleFonts.oswald(
-                      fontSize: 25,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Text(
-                    "-Bahçelievler Belediye Meydanı",
+                    "- Kocasinan Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -116,7 +107,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bahçelievler Atatürk Spor Kompleksi",
+                    "- Bahçelievler Belediye Meydanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -126,7 +117,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Bahçelievler Göztepe Parkı",
+                    "- Bahçelievler Atatürk Spor Kompleksi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -136,7 +127,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Yenibosna Millet Bahçesi",
+                    "- Bahçelievler Göztepe Parkı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -146,7 +137,7 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Fevzi Çakmak Parkı",
+                    "- Yenibosna Millet Bahçesi",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
@@ -156,7 +147,17 @@ class _BahcelievlerState extends State<Bahcelievler> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    "-Atatürk Ormanı",
+                    "- Fevzi Çakmak Parkı",
+                    style: GoogleFonts.oswald(
+                      fontSize: 27,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    "- Atatürk Ormanı",
                     style: GoogleFonts.oswald(
                       fontSize: 27,
                       color: Colors.black,
