@@ -32,7 +32,7 @@ class anaEkran extends StatefulWidget {
 class _anaEkranState extends State<anaEkran> {
 
   final player = AudioPlayer();
-  int buttonPressCount = 0;
+  bool buttonPressCount = true;
 
   @override
   Widget build(BuildContext context) {
@@ -50,12 +50,12 @@ class _anaEkranState extends State<anaEkran> {
           Row(mainAxisAlignment: MainAxisAlignment.center,children: <Widget>[
             ElevatedButton(
               onPressed: (){setState(() {
-                buttonPressCount++;
-
-                  if (buttonPressCount%2 != 0) {
+                  if (buttonPressCount == true) {
                     player.play(AssetSource("sounds/duduk-ses.mp3"));
+                    buttonPressCount = false;
                   } else {
                     player.stop();
+                    buttonPressCount = true;
                   }
               });},
               child: Image.asset("assets/images/duduk.png"),
