@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bakirkoy extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BakirkoyState extends State<Bakirkoy> {
       appBar: AppBar(
         title: Text(
           "Bakırköy",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Center(
                   child: Text(
                     "BAKIRKÖY RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -49,7 +48,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                 Text(
                   "Bakırköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir. Özellikle 1999 Marmara Depremi gibi büyük depremlerin yaşandığı İstanbul'da, Bakırköy İlçesi de deprem riski olan bölgelerden biridir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAKIRKÖY TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -78,7 +77,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bakırköy Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bakırköy Cumhuriyet Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ataköy Sahil Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bakırköy Özgürlük Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yeşilköy Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bakırköy Botanik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Florya Atatürk Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bakırköy İncirli Sahil Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -161,7 +160,7 @@ class _BakirkoyState extends State<Bakirkoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAKIRKÖY RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

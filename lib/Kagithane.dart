@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Kagithane extends StatefulWidget {
   const Kagithane({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _KagithaneState extends State<Kagithane> {
       appBar: AppBar(
         title: Text(
           "Kağıthane",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _KagithaneState extends State<Kagithane> {
                 Center(
                   child: Text(
                     "KAĞITHANE RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),
@@ -48,7 +47,7 @@ class _KagithaneState extends State<Kagithane> {
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Kağıthane’deki binaların ortalama %73’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’ünün hafif, %6’ininorta, %0,7’inin ağır ve %0,3’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.center,
                   child: Text(
                     "KAĞITHANE TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
                     ),
@@ -77,7 +76,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kağıthane Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Seyrantepe Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kağıthane Belediye Hizmet Binası",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fatih Sultan Mehmet Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kağıthane Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kağıthane Kültür Merkezi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Hamidiye Camii Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -150,7 +149,7 @@ class _KagithaneState extends State<Kagithane> {
                   alignment: Alignment.center,
                   child: Text(
                     "KAĞITHANE RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),

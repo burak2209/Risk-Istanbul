@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Silivri extends StatefulWidget {
   const Silivri({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _SilivriState extends State<Silivri> {
       appBar: AppBar(
         title: Text(
           "Silivri",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _SilivriState extends State<Silivri> {
                 Center(
                   child: Text(
                     "SİLİVRİ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -48,7 +47,7 @@ class _SilivriState extends State<Silivri> {
                 Text(
                   "Silivri 2.derece riskli olan deprem bölgeleri arasında yer almaktadır.Mw=7.5 büyüklüğündeki senaryo depreminde, Silivri’deki binaların ortalama %58’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ünün hafif, %14’ünün orta, %3’ünün ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.center,
                   child: Text(
                     "SİLİVRİ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -77,7 +76,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Silivri Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Silivri Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Çanta Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kumburgaz Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece Gölü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mimar Sinan Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Selimpaşa Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yarımburgaz Mağarası",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gümüşyaka Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _SilivriState extends State<Silivri> {
                   alignment: Alignment.center,
                   child: Text(
                     "SİLİVRİ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Kadikoy extends StatefulWidget {
   const Kadikoy({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _KadikoyState extends State<Kadikoy> {
       appBar: AppBar(
         title: Text(
           "Kadıköy",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Center(
                   child: Text(
                     "KADIKÖY RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _KadikoyState extends State<Kadikoy> {
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Kadıköy birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Kadıköy’deki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %27’sinin hafif, %10’unun orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "KADIKÖY TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kazasker Shell Karşısı Yeşil Alan",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Özdemiroğlu İmam Hatip Orta Okulu Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Hayrullah Kefoğlu Anadolu Lisesi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bostancı Gösteri Merkezi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- 50. Yıl Tahran Anadolu Lisesi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Fen Lisesi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Feneryolu Halk Eğitim Merkezi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Aden Tenis Akademisi ve Yanı Basket Sahaları",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Eski Koşuyolu Kalp Hastanesi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _KadikoyState extends State<Kadikoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "KADIKÖY RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

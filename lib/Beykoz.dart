@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Beykoz extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BeykozState extends State<Beykoz> {
       appBar: AppBar(
         title: Text(
           "Beykoz",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BeykozState extends State<Beykoz> {
                 Center(
                   child: Text(
                     "BEYKOZ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),
@@ -49,7 +48,7 @@ class _BeykozState extends State<Beykoz> {
                 Text(
                   "Beykoz, iyi bir zemine sahip dolayısıyla 3. derecede yani düşük riskli bir bölge olarak biliniyor.Mw=7.5 büyüklüğündeki senaryo depreminde, Beykoz’daki binaların ortalama %79’unun hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ünün orta, %0,86’sının ağır ve %0.22’sinin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYKOZ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
                     ),
@@ -78,7 +77,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beykoz Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beykoz Korusu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Anadolu Kavağı Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Paşabahçe Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Anadolu Hisarı Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Çubuklu Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Göksu Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehir İlker Aktaş Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -158,7 +157,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Er Murat Öndin Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -171,7 +170,7 @@ class _BeykozState extends State<Beykoz> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYKOZ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),

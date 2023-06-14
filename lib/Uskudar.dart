@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Uskudar extends StatefulWidget {
   const Uskudar({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _UskudarState extends State<Uskudar> {
       appBar: AppBar(
         title: Text(
           "Üsküdar",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _UskudarState extends State<Uskudar> {
                 Center(
                   child: Text(
                     "ÜSKÜDAR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -48,7 +47,7 @@ class _UskudarState extends State<Uskudar> {
                 Text(
                   "Üsküdar 2.derece risk taşıyan deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Üsküdar’daki binaların ortalama %67’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %23’ünün hafif, %8’ininorta, %1,5’unun ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.center,
                   child: Text(
                     "ÜSKÜDAR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -77,7 +76,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Türk Telekom Bölge Müdr. Arka Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Barış Manço Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- 75. Yıl Cumhuriyet Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abdulvahab Yıldırım Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Tulumbacılar Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Çamlı Bahçe Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Muhammed Durra Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mavi Marmara Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Süleyman Kule Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _UskudarState extends State<Uskudar> {
                   alignment: Alignment.center,
                   child: Text(
                     "ÜSKÜDAR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

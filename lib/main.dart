@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 import 'package:riskistanbul/Yapilmasi.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -11,7 +11,7 @@ void main() {
       appBar: AppBar(
         title: Text(
           "Risk İstanbul",
-          style: GoogleFonts.oswald(fontSize: 32, color: Colors.white),
+          style: TextStyle(fontSize: 32, color: Colors.white),
         ),
         backgroundColor: Colors.black,
         centerTitle: true,
@@ -30,6 +30,10 @@ class anaEkran extends StatefulWidget {
 }
 
 class _anaEkranState extends State<anaEkran> {
+
+  final player = AudioPlayer();
+  int buttonPressCount = 0;
+
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -45,7 +49,15 @@ class _anaEkranState extends State<anaEkran> {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.center,children: <Widget>[
             ElevatedButton(
-              onPressed: (){print("test");},
+              onPressed: (){setState(() {
+                buttonPressCount++;
+
+                  if (buttonPressCount%2 != 0) {
+                    player.play(AssetSource("sounds/duduk-ses.mp3"));
+                  } else {
+                    player.stop();
+                  }
+              });},
               child: Image.asset("assets/images/duduk.png"),
               style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12),
@@ -78,7 +90,7 @@ class _anaEkranState extends State<anaEkran> {
                 },
                 child: Text(
                   "Depremde yapılması gerekenler için tıklayınız",
-                  style: GoogleFonts.oswald(fontSize: 29.5),
+                  style: TextStyle(fontSize: 29.5),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -103,7 +115,7 @@ class _anaEkranState extends State<anaEkran> {
                 },
                 child: Text(
                   "İlçelerin risk durumunu görüntülemek için tıklayınız",
-                  style: GoogleFonts.oswald(fontSize: 26),
+                  style: TextStyle(fontSize: 26),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(

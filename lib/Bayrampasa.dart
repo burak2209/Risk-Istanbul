@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bayrampasa extends StatefulWidget {
@@ -15,7 +14,7 @@ class _BayrampasaState extends State<Bayrampasa> {
       appBar: AppBar(
         title: Text(
           "Bayrampaşa",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Center(
                   child: Text(
                     "BAYRAMPAŞA RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -48,7 +47,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                 Text(
                   "Bayrampaşa İstanbul deprem risk haritasına göre 2. Derece deprem bölgesi olarak değerlendiriliyor 7.5 büyüklüğündeki senaryo depreminde, Bayrampaşa’daki binaların ortalama %37’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %35’inin hafif, %19’unun orta, %6’sının ağır ve %3’ünün de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAYRAMPAŞA TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -77,7 +76,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Forum İstanbul",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bayrampaşa Olimpik Yüzme Havuzu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Göztepe Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abdi İpekçi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bayrampaşa Atatürk Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Maltepe Cemevi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bayrampaşa Kültür Merkezi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Vatan Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kocatepe Camii",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _BayrampasaState extends State<Bayrampasa> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAYRAMPAŞA RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

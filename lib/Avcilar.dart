@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Avcilar extends StatefulWidget {
@@ -16,7 +15,7 @@ class _AvcilarState extends State<Avcilar> {
       appBar: AppBar(
         title: Text(
           "Avcılar",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25, fontFamily: "Oswald"),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,9 +32,10 @@ class _AvcilarState extends State<Avcilar> {
                 Center(
                   child: Text(
                     "AVCILAR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -47,11 +47,12 @@ class _AvcilarState extends State<Avcilar> {
                   height: 10,
                 ),
                 Text(
-                  "Kötü bir zemine sahip olduğu bilinen Avcılar, birinci derece deprem bölgesi olarak biliniyor . Buna göre Mw=7.5 büyüklüğündeki senaryo depreminde, Avcılar’daki binaların ortalama %39’unun hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %34’ünün hafif, %21’inin orta, %5’inin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir.",
+                  "Kötü bir zemine sahip olduğu bilinen Avcılar, birinci derece deprem bölgesi olarak biliniyor. Buna göre Mw=7.5 büyüklüğündeki senaryo depreminde, Avcılar’daki binaların ortalama %39’unun hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %34’ünün hafif, %21’inin orta, %5’inin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
+                    fontFamily: "Oswald",
                   ),
                 ),
                 SizedBox(
@@ -61,9 +62,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.center,
                   child: Text(
                     "AVCILAR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -78,9 +80,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İnönü Ortaokulu Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -88,9 +91,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Ayhan Arslan Sokak",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -98,9 +102,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ambarlı Mahallesi Kapalı Semt Pazarı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -108,9 +113,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fatih Sultan Mehmet Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -118,9 +124,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mustafa Kemal Paşa Mahallesi Toplanma Alanları",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -128,9 +135,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Hakan Kırdak Sokak Toplanma Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -138,9 +146,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Bulvarı Toplanma Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -148,9 +157,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Değirmen Sokak Toplanma Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -158,9 +168,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ambarlı Mahallesi Anaokulu Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -171,9 +182,10 @@ class _AvcilarState extends State<Avcilar> {
                   alignment: Alignment.center,
                   child: Text(
                     "AVCILAR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -184,7 +196,7 @@ class _AvcilarState extends State<Avcilar> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/avcılar.png")
+                Image.asset("assets/avcılar.png"),
               ],
             ),
           ),

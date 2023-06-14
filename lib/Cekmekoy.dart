@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Cekmekoy extends StatefulWidget {
   const Cekmekoy({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _CekmekoyState extends State<Cekmekoy> {
       appBar: AppBar(
         title: Text(
           "Çekmeköy",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Center(
                   child: Text(
                     "ÇEKMEKÖY RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                 Text(
                   "Çekmeköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir.e Mw=7.5 büyüklüğündeki senaryo depreminde, Çekmeköy’deki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %16’sının hafif, %5’ininorta, %0.533’ünün ağır ve %0.07’sinin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "ÇEKMEKÖY TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Taşdelen Mesire Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Reşadiye Mesire Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Alemdağ Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Samandıra Mesire Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Çamlıca Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Aydos Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Taşburun Mesire Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ağlayan Kaya Tabiat Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Göçbeyli Tabiat Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "ÇEKMEKÖY RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

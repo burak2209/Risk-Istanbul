@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bagcilar extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BagcilarState extends State<Bagcilar> {
       appBar: AppBar(
         title: Text(
           "Bağcılar",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25, fontFamily: "Oswald"),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,9 +32,10 @@ class _BagcilarState extends State<Bagcilar> {
                 Center(
                   child: Text(
                     "BAĞCILAR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -49,9 +49,10 @@ class _BagcilarState extends State<Bagcilar> {
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Bağcılar’daki binaların ortalama %39’unun hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %36’sının hafif, %19’unun orta, %4’ünün ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir.Bağcılar’da, analiz edilen toplam bina sayısı 42.446’dır.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
+                    fontFamily: "Oswald",
                   ),
                 ),
                 SizedBox(
@@ -61,9 +62,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAĞCILAR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -78,9 +80,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bağcılar Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -88,9 +91,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Demirkapı Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -98,9 +102,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Güneşli Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -108,9 +113,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kirazlı Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -118,9 +124,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yenigün Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -128,9 +135,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Güneştepe Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -138,9 +146,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Soğanlı Millet Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -148,9 +157,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bağcılar Gençlik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -158,9 +168,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mahmutbey Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -171,9 +182,10 @@ class _BagcilarState extends State<Bagcilar> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAĞCILAR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),

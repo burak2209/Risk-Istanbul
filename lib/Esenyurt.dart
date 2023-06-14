@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Esenyurt extends StatefulWidget {
   const Esenyurt({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _EsenyurtState extends State<Esenyurt> {
       appBar: AppBar(
         title: Text(
           "Esenyurt",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Center(
                   child: Text(
                     "ESENYURT RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -48,7 +47,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 Text(
                   "Esenyurt 2. derece deprem bölgesi olarak geçmektedir. Mw=7.5 büyüklüğündeki senaryo depreminde, Esenyurt’taki binaların ortalama %36’sının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %38’inin hafif, %20’sinin orta, %4’ünün ağır ve %1,4’ünün de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.center,
                   child: Text(
                     "ESENYURT TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -77,7 +76,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Esenyurt Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Marmara Park Alışveriş Merkezi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Esenyurt Üniversitesi Kampüsü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Belediye Hizmet Binası",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Cumhuriyet Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Esenkent Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Esenyurt Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -150,7 +149,7 @@ class _EsenyurtState extends State<Esenyurt> {
                   alignment: Alignment.center,
                   child: Text(
                     "ESENYURT RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

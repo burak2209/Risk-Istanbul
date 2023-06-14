@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Buyukcekmece extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
       appBar: AppBar(
         title: Text(
           "Büyükçekmece",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Center(
                   child: Text(
                     "BÜYÜKÇEKMECE RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -49,7 +48,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                 Text(
                   "Büyükçekmece 2. derece deprem bölgelerine girmektedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Büyükçekmece’deki binalarınortalama %42’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %30’ununhafif, %21’ünün orta, %5’inin ağır ve %2 ’sinin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.center,
                   child: Text(
                     "BÜYÜKÇEKMECE TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.orange,
                     ),
@@ -78,7 +77,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece Belediye Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece Atatürk Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mimar Sinan Mahallesi Atatürk Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece E-5 Karayolu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece Kır Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Büyükçekmece Atatürk Spor Kompleksi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Tepecik Sosyal Tesisleri",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -151,7 +150,7 @@ class _BuyukcekmeceState extends State<Buyukcekmece> {
                   alignment: Alignment.center,
                   child: Text(
                     "BÜYÜKÇEKMECE RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

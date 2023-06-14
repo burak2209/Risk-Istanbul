@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Sancaktepe extends StatefulWidget {
   const Sancaktepe({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _SancaktepeState extends State<Sancaktepe> {
       appBar: AppBar(
         title: Text(
           "Sancaktepe",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Center(
                   child: Text(
                     "SANCAKTEPE RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Sancaktepe birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Sancaktepe’deki binalarınortalama %68’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %22’sininhafif, %8’inin orta, %1,5’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.center,
                   child: Text(
                     "SANCAKTEPE TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Sedat Bugan Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Muratkarataş Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abdurrahmangazi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ihlamur Koşu Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Hasan Basri Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Zübeyde Hanım Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Afacan Çocuk Park",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kelebek Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _SancaktepeState extends State<Sancaktepe> {
                   alignment: Alignment.center,
                   child: Text(
                     "SANCAKTEPE RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

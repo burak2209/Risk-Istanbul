@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Sultanbeyli extends StatefulWidget {
   const Sultanbeyli({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
       appBar: AppBar(
         title: Text(
           "Sultanbeyli",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                 Center(
                   child: Text(
                     "SULTANBEYLİ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                 Text(
                   "Sultanbeyli ilçesi birinci derece deprem riski olan bölgeler arasında yer almaktadır.Mw=7.5 büyüklüğündeki senaryo depreminde, Sultanbeyli’deki binaların ortalama %61’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24,6’ sının hafif, %12’sinin orta, %2’sinin ağır ve %0,4’ünün de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.center,
                   child: Text(
                     "SULTANBEYLİ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abdurrahmangazi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Barbaros Hayrettin Paşa Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Hamit Sütmen Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sultanbeyli Gölet Futbol Stadı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Üsteğmen Rahim Çelik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Erkan Karakaş Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Necip Fazıl Kısakürek Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Orhangazi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sultan Alparslan Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                   alignment: Alignment.center,
                   child: Text(
                     "SULTANBEYLİ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Besiktas extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BesiktasState extends State<Besiktas> {
       appBar: AppBar(
         title: Text(
           "Beşiktaş",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BesiktasState extends State<Besiktas> {
                 Center(
                   child: Text(
                     "BEŞİKTAŞ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -49,7 +48,7 @@ class _BesiktasState extends State<Besiktas> {
                 Text(
                   "e Mw=7.5 büyüklüğündeki senaryo depreminde, Beşiktaş’taki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sinin hafif, %6,5’inin orta, %1’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEŞİKTAŞ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -78,7 +77,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beşiktaş Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abbasağa Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bebek Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İnönü Stadyumu Çevresi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Dolmabahçe Sahil Yolu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yıldız Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Barbaros Bulvarı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Levent Metro İstasyonu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -158,7 +157,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Akaretler Sıraevler",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -171,7 +170,7 @@ class _BesiktasState extends State<Besiktas> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEŞİKTAŞ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

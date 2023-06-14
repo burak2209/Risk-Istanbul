@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Beyoglu extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BeyogluState extends State<Beyoglu> {
       appBar: AppBar(
         title: Text(
           "Beyoğlu",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Center(
                   child: Text(
                     "BEYOĞLU RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -49,7 +48,7 @@ class _BeyogluState extends State<Beyoglu> {
                 Text(
                   "Fay İstanbul'un içinden geçmez ama hemen güneyinde yer alır ve özellikle yerleşmenin Marmara'ya olan kıyı kesiminde I. derece deprem kuşağında yer almasına neden olur. Mw=7.5 büyüklüğündeki senaryo depreminde, Beyoğlu’ndaki binaların ortalama %58’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %26’sının hafif, %11’ininorta, %3’ünün ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYOĞLU TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -78,7 +77,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Muhtarlık etrafı yeşil alanlar",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şişhane otoparkı üstü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Cihangir Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Recep Tayyip Erdoğan Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Halıcıoğlu Yanyol Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Taksim Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ferit Güleryüz Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Abdüsselam Parkı ve etrafı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -158,7 +157,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kadımehmet Semt Konağı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -171,7 +170,7 @@ class _BeyogluState extends State<Beyoglu> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYOĞLU RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

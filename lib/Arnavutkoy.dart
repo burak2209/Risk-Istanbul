@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
@@ -16,7 +15,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
       appBar: AppBar(
         title: Text(
           "Arnavutköy",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25, fontFamily: "Oswald"),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,9 +32,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                 Center(
                   child: Text(
                     "ARNAVUTKÖY RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -49,9 +49,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                 Text(
                   "Arnavutköy'de iyi bir zemin yapısı olduğunu söyleyebiliriz. Buna göre Arnavutköy İlçesi'nin büyük çoğunluğu, jeolojik ve jeofizik ilkeleri çerçevesinde yapılan genel kategorik ayrıma göre 3. derece (riski az) deprem bölgesidir. Buna göre Mw=7.5 büyüklüğündeki senaryo depreminde, Arnavutköy'deki binaların ortalama yüzde 78'inin hasar görmeyeceği tahmin edilmektedir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
+                    fontFamily: "Oswald",
                   ),
                 ),
                 SizedBox(
@@ -61,9 +62,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "ARNAVUTKÖY TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -78,9 +80,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Hasan Polatkan Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -88,9 +91,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Aşık Veysel Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -98,9 +102,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Er Sabahattin Akgül Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -108,9 +113,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Engelliler Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -118,9 +124,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İ.B.B Arnavutköy Sosyal Tesisleri",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -128,9 +135,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Arnavutköy Şehir Stadı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -138,9 +146,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Arnavutköy Kültür Merkezi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -148,9 +157,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Arnavutköy İlçe Emniyet Müdürlüğü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -161,9 +171,10 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                   alignment: Alignment.center,
                   child: Text(
                     "ARNAVUTKÖY RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),

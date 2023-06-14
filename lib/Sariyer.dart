@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Sariyer extends StatefulWidget {
   const Sariyer({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _SariyerState extends State<Sariyer> {
       appBar: AppBar(
         title: Text(
           "Sarıyer",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _SariyerState extends State<Sariyer> {
                 Center(
                   child: Text(
                     "SARIYER RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),
@@ -48,7 +47,7 @@ class _SariyerState extends State<Sariyer> {
                 Text(
                   "Sarıyer 3. derece deprem bölgelesidir. Mw=7.5 büyüklüğündeki senaryo depreminde, Sarıyer’deki binaların ortalama %80’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %14’ünün hafif, %5’ininorta, %0,7’sinin ağır ve %0,3’ünün de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.center,
                   child: Text(
                     "SARIYER TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
                     ),
@@ -77,7 +76,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ayazağa Merkez Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Cumhuriyet Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- 211.Sokak Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Belediye Evleri Yanı Park",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bahçeköy Orman Fakültesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Baltalimanı İlçe Milli Eğitim Müdürlüğü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Darüşşafaka Yaşam Evi Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yakup Kaptan Topçular Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Doğa Tepe Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _SariyerState extends State<Sariyer> {
                   alignment: Alignment.center,
                   child: Text(
                     "SARIYER RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Maltepe extends StatefulWidget {
   const Maltepe({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _MaltepeState extends State<Maltepe> {
       appBar: AppBar(
         title: Text(
           "Maltepe",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _MaltepeState extends State<Maltepe> {
                 Center(
                   child: Text(
                     "MALTEPE RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _MaltepeState extends State<Maltepe> {
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Maltepe birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Maltepe’deki binaların ortalama %57’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %28’inin hafif, %12’sininorta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.center,
                   child: Text(
                     "MALTEPE TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Yaşar Yeniören Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fahri Kasapoğlu Camii Karşısı Boş Alan",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Seren Sokak Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Özgürlük Parkı ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Asım Kara Gülsuyu Spor Tesisi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Zümrütevler Pazar Yeri ve Çevresi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Üçyürek Parkı ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kani Paşa Caddesi Parkı(Özgecan Aslan Parkı)",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Petrol Sokak Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _MaltepeState extends State<Maltepe> {
                   alignment: Alignment.center,
                   child: Text(
                     "MALTEPE RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

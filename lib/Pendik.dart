@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Pendik extends StatefulWidget {
   const Pendik({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _PendikState extends State<Pendik> {
       appBar: AppBar(
         title: Text(
           "Bağcılar",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _PendikState extends State<Pendik> {
                 Center(
                   child: Text(
                     "PENDİK RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _PendikState extends State<Pendik> {
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Pendik birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Pendik’teki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %26’sının hafif, %11’inin orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.center,
                   child: Text(
                     "PENDİK TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yenişehir Mahallesi Muhtarlık Yanı Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gazi Caddesi Orhanlı Caddesi Keşişimi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Bekçi Şaban ARAS Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mehmet KÜLTÜR Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Marmara Eğitim Hastanesi Arka Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Milli Egemenlik Park",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şeh.Tğm. Turgay Karaman Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ertuğrul Gazi Parkı ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şht.Murat Çelik Parkı ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _PendikState extends State<Pendik> {
                   alignment: Alignment.center,
                   child: Text(
                     "PENDİK RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

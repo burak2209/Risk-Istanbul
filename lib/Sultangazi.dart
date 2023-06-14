@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Sultangazi extends StatefulWidget {
   const Sultangazi({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _SultangaziState extends State<Sultangazi> {
       appBar: AppBar(
         title: Text(
           "Sultangazi",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Center(
                   child: Text(
                     "SULTANGAZİ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),
@@ -48,7 +47,7 @@ class _SultangaziState extends State<Sultangazi> {
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Sultangazi’deki binalarınortalama %73’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sininhafif, %5,8’inin orta, %1’inin ağır ve %0,2’sinin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.center,
                   child: Text(
                     "SULTANGAZİ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.orange,
                     ),
@@ -77,7 +76,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sultangazi Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sultangazi Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sultançiftliği Mesire Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Habipler Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gazi Mahallesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fatih Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İsmail Hakkı Tonguç Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gaziosmanpaşa Şehitlik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _SultangaziState extends State<Sultangazi> {
                   alignment: Alignment.center,
                   child: Text(
                     "SULTANGAZİ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.orange,
                     ),

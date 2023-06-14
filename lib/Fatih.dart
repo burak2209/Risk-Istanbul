@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Fatih extends StatefulWidget {
   const Fatih({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _FatihState extends State<Fatih> {
       appBar: AppBar(
         title: Text(
           "Fatih",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _FatihState extends State<Fatih> {
                 Center(
                   child: Text(
                     "FATİH RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _FatihState extends State<Fatih> {
                 Text(
                   "Fatih fay hatlarına yakınlığa göre birinci derece riskli ilçedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Fatih’teki binaların ortalama %28’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %36’sının hafif, %23’ünün orta, %8’inin ağır ve %5’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.center,
                   child: Text(
                     "FATİH TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Binbirdirek Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kalburcu Mehmet Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Ayvansaray Mahkemealtı Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Çarşamba Çukurbostan Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fındıkzade Çukurbostan Şehir Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kocamustafapaşa Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Karagümrük Stadı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Aksaray Metro İstasyonu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Melek Hatun Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _FatihState extends State<Fatih> {
                   alignment: Alignment.center,
                   child: Text(
                     "FATİH RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

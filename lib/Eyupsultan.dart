@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Eyupsultan extends StatefulWidget {
   const Eyupsultan({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _EyupsultanState extends State<Eyupsultan> {
       appBar: AppBar(
         title: Text(
           "Eyüpsultan",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Center(
                   child: Text(
                     "EYÜPSULTAN RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 Text(
                   "Eyüp semti İstanbul deprem riski haritasına göre 2. ve 3. derece riskli ilçeler arasında yer alıyor.Eyüpsultan'da yaşayan veya bu ilçede bir konut edinmeyi düşünen kişilerin, yapıların deprem güvenliği ve yapı denetimine ilişkin belgeleri incelemeleri, gerekirse uzman görüşü almalı ve depreme dayanıklılık konusunda titizlikle hareket etmeleri önemlidir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.center,
                   child: Text(
                     "EYÜPSULTAN TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Alibeyköy Cep Otogarı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Eyüp Sultan Camii Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Eyüp Sultan Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İBB Barış Manço Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Akşemsettin Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Veysel Karani Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Osmanlı Parkı ve Spor Alanları",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit İbrahim Candemir Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Eyüpsultan Devlet Hastanesi Önü (Tekke Parkı)",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -167,7 +166,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Adem Yaşarı Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -177,7 +176,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gürbüzler Sokak Futbol Sahası",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -190,7 +189,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                   alignment: Alignment.center,
                   child: Text(
                     "EYÜPSULTAN RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

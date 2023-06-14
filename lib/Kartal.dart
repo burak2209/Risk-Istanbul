@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Kartal extends StatefulWidget {
   const Kartal({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _KartalState extends State<Kartal> {
       appBar: AppBar(
         title: Text(
           "Kartal",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _KartalState extends State<Kartal> {
                 Center(
                   child: Text(
                     "KARTAL RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _KartalState extends State<Kartal> {
                 Text(
                   "İstanbul en büyük risk altında ve en eski yerleşim yerlerinden biri de Kartal.Mw=7.5 büyüklüğündeki senaryo depreminde, Kartal’daki binaların ortalama %60’ının hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %27’sinin hafif, %10’unun orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.center,
                   child: Text(
                     "KARTAL TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kartal Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kartal Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Soğanlık Spor Kompleksi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Dragos Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Orhantepe Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Esenkent Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Soğanlık Sahili",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Orhantepe Camii Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -160,7 +159,7 @@ class _KartalState extends State<Kartal> {
                   alignment: Alignment.center,
                   child: Text(
                     "KARTAL RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

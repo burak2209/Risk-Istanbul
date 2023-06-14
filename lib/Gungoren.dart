@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Gungoren extends StatefulWidget {
   const Gungoren({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _GungorenState extends State<Gungoren> {
       appBar: AppBar(
         title: Text(
           "Güngören",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,7 +31,7 @@ class _GungorenState extends State<Gungoren> {
                 Center(
                   child: Text(
                     "GÜNGÖREN RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -48,7 +47,7 @@ class _GungorenState extends State<Gungoren> {
                 Text(
                   "Haritada fay hatlarına yakınlığa göre Güngören birinci derece risklidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Güngören’deki binalarınortalama %27’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %42’sininhafif, % 22’sinin orta, % 6’sının ağır ve % 3’ünün de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -60,7 +59,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.center,
                   child: Text(
                     "GÜNGÖREN TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -77,7 +76,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Er Hasan Sorma Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -87,7 +86,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şeyh Şamil Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -97,7 +96,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Özcan Canik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
                     ),
@@ -107,7 +106,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yavuz Selim Caddesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -117,7 +116,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- 75. Yıl Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -127,7 +126,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Metro Parkı ve Spor Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -137,7 +136,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Er Hasan Sorma Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -147,7 +146,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Şehit Özcan Canik Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -157,7 +156,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yavuz Selim Caddesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -170,7 +169,7 @@ class _GungorenState extends State<Gungoren> {
                   alignment: Alignment.center,
                   child: Text(
                     "GÜNGÖREN RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

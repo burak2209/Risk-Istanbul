@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Basaksehir extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BasaksehirState extends State<Basaksehir> {
       appBar: AppBar(
         title: Text(
           "Başakşehir",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Center(
                   child: Text(
                     "BAŞAKŞEHİR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),
@@ -49,7 +48,7 @@ class _BasaksehirState extends State<Basaksehir> {
                 Text(
                   "Başakşehir Belediye Başkanı Yasin Kartoğlu, ilçenin İstanbul'da zemini en sağlam ilçelerden olduğunu söyledi. Mw=7.5 büyüklüğündeki senaryo depreminde, Başakşehir’deki binalarınortalama %62’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ününhafif, %11,5’inin orta, %2’sinin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAŞAKŞEHİR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
                     ),
@@ -78,7 +77,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Başakşehir Çam ve Sakura Kent Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Başakşehir Stadyumu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Başakşehir Atatürk Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bahçeşehir Gölet Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Tema İstanbul Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Güvercintepe Piknik Alanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Göktürk Ormanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Kayabaşı Millet Bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -158,7 +157,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İkitelli Kent Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -171,7 +170,7 @@ class _BasaksehirState extends State<Basaksehir> {
                   alignment: Alignment.center,
                   child: Text(
                     "BAŞAKŞEHİR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
                     ),

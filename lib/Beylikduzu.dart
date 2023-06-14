@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Beylikduzu extends StatefulWidget {
@@ -16,7 +15,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
       appBar: AppBar(
         title: Text(
           "Beylikdüzü",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,
       ),
@@ -33,7 +32,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                 Center(
                   child: Text(
                     "BEYLİKDÜZÜ RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),
@@ -49,7 +48,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Beylikdüzü’ndeki binalarınortalama %33’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %34’ününhafif, %24’ünün orta, %7’sinin ağır ve %2’sinin de çok ağır hasar görmesi beklenmektedir.Beylikdüzü’nde, analiz edilen toplam bina sayısı 12.753’tür.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
                   ),
@@ -61,7 +60,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYLİKDÜZÜ TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.red,
                     ),
@@ -78,7 +77,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü Belediye Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -88,7 +87,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü Yaşam Vadisi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -98,7 +97,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Cumhuriyet Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -108,7 +107,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü Büyükşehir Belediye Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -118,7 +117,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- TÜYAP Fuar ve Kongre Merkezi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -128,7 +127,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü Migros AVM",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -138,7 +137,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü E-5 Karayolu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -148,7 +147,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Beylikdüzü Üniversitesi Kampüsü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
                     ),
@@ -161,7 +160,7 @@ class _BeylikduzuState extends State<Beylikduzu> {
                   alignment: Alignment.center,
                   child: Text(
                     "BEYLİKDÜZÜ RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.red,
                     ),

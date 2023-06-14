@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Atasehir extends StatefulWidget {
@@ -15,7 +14,7 @@ class _AtasehirState extends State<Atasehir> {
       appBar: AppBar(
         title: Text(
           "Ataşehir",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25, fontFamily: "Oswald"),
         ),
         backgroundColor: Colors.black,
       ),
@@ -32,9 +31,10 @@ class _AtasehirState extends State<Atasehir> {
                 Center(
                   child: Text(
                     "ATAŞEHİR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -48,9 +48,10 @@ class _AtasehirState extends State<Atasehir> {
                 Text(
                   "Mw=7.5 büyüklüğündeki senaryo depreminde, Ataşehir’deki binaların ortalama %63’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %24’ünün hafif, %10’unun orta, %2’sinin ağır ve %1’inin de çok ağır hasar görmesi beklenmektedir.Ataşehir’de, analiz edilen toplam bina sayısı 27.583’tür.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
+                    fontFamily: "Oswald",
                   ),
                 ),
                 SizedBox(
@@ -60,9 +61,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.center,
                   child: Text(
                     "ATAŞEHİR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 29,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -77,9 +79,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Orhan Veli Ortaokulu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -87,9 +90,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -97,9 +101,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Aşık Veysel Lisesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -107,9 +112,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Engelliler Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -117,9 +123,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Atatürk Mahallesi, Emek Evler 1,2,3 Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -127,9 +134,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- 15 Temmuz Şehitler ve Demokrasi Parkı ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -137,9 +145,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Fetih İMKB İlkokulu",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -147,9 +156,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mehmet Katip Hacı Bekir Caddesi Kesimi ",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -157,9 +167,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mehmet Katip Sokak, Hacıbekir Caddesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -170,9 +181,10 @@ class _AtasehirState extends State<Atasehir> {
                   alignment: Alignment.center,
                   child: Text(
                     "ATAŞEHİR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -183,7 +195,7 @@ class _AtasehirState extends State<Atasehir> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/ataşehir.jpg")
+                Image.asset("assets/ataşehir.jpg"),
               ],
             ),
           ),
