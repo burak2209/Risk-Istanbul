@@ -11,7 +11,7 @@ void main() {
       appBar: AppBar(
         title: Text(
           "Risk İstanbul",
-          style: TextStyle(fontSize: 32, color: Colors.white),
+          style: TextStyle(fontSize: 27, color: Colors.white),
         ),
         backgroundColor: Colors.black,
         centerTitle: true,
