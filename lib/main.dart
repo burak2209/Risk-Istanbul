@@ -43,6 +43,30 @@ class _anaEkranState extends State<anaEkran> {
           SizedBox(
             height: 100,
           ),
+          Row(mainAxisAlignment: MainAxisAlignment.center,children: <Widget>[
+            ElevatedButton(
+              onPressed: (){print("test");},
+              child: Image.asset("assets/images/duduk.png"),
+              style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12),
+                  ),
+                backgroundColor: Colors.red,
+              ),
+            ),
+            SizedBox(width: 20,),
+            ElevatedButton(onPressed: (){
+              print("ahmet");
+            },
+                child: Image.asset("assets/images/soru.png"),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12),
+                ),
+                backgroundColor: Colors.black,
+              ),
+            ),
+          ],
+          ),
+          SizedBox(height: 20,),
           Expanded(
             flex: 1,
             child: Padding(

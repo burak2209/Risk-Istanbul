@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:riskistanbul/Anamenu.dart';
 import 'package:riskistanbul/Arnavutkoy.dart';
 import 'package:riskistanbul/Atasehir.dart';
@@ -28,7 +27,7 @@ class _AdalarState extends State<Adalar> {
       appBar: AppBar(
         title: Text(
           "Adalar",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25, fontFamily: "Oswald"),
         ),
         backgroundColor: Colors.black,
       ),
@@ -45,9 +44,10 @@ class _AdalarState extends State<Adalar> {
                 Center(
                   child: Text(
                     "ADALAR RİSK DURUMU",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -61,9 +61,10 @@ class _AdalarState extends State<Adalar> {
                 Text(
                   "7.5 büyüklüğündeki senaryo depreminde, Adalar’daki binaların ortalama %23’ünün hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %29’unun hafif,%30’unun orta, %12’sinin ağır ve %6’sının da çok ağır hasar görmesi beklenmektedir.Adalar’daki binaların ortalama %48’inin (yaklaşık 3.050 bina) orta ve üstü seviyede hasar göreceği tahmin edilmektedir. Yaklaşık 3.343 binanın ise, hasarsız veya hafif hasarlı olması beklenmektedir.",
                   textAlign: TextAlign.justify,
-                  style: GoogleFonts.oswald(
+                  style: TextStyle(
                     fontSize: 27,
                     color: Colors.black,
+                    fontFamily: "Oswald",
                   ),
                 ),
                 SizedBox(
@@ -73,9 +74,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.center,
                   child: Text(
                     "ADALAR TOPLANMA ALANLARI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -93,9 +95,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "BÜYÜK ADA",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -113,9 +116,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Mehmet Bölük Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -123,9 +127,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- İzzet Bölük Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -136,9 +141,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "HEYBELİ ADA",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -156,9 +162,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Metin Sülüş Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -166,9 +173,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Bahriye Çeşmesi Parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -179,9 +187,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "BURGAZ ADA",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -199,9 +208,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Sait Faik Müze Önü",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -209,9 +219,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Gönüllü çay bahçesi",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -219,9 +230,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Evren Sakallı Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -229,9 +241,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Adalar İskele Meydanı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -242,9 +255,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "KINALI ADA",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -262,9 +276,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Yarbaşı parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -272,9 +287,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.centerLeft,
                   child: Text(
                     "- Manastıralı çocuk parkı",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 27,
                       color: Colors.black,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),
@@ -285,9 +301,10 @@ class _AdalarState extends State<Adalar> {
                   alignment: Alignment.center,
                   child: Text(
                     "ADALAR RİSK HARİTASI",
-                    style: GoogleFonts.oswald(
+                    style: TextStyle(
                       fontSize: 30,
                       color: Colors.green,
+                      fontFamily: "Oswald",
                     ),
                   ),
                 ),

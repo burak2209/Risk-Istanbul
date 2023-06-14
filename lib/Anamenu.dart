@@ -38,7 +38,6 @@ import 'package:riskistanbul/Tuzla.dart';
 import 'package:riskistanbul/Umraniye.dart';
 import 'package:riskistanbul/Uskudar.dart';
 import 'package:riskistanbul/Zeytinburnu.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SayfaA extends StatefulWidget {
   const SayfaA({Key? key}) : super(key: key);
@@ -55,7 +54,7 @@ class _SayfaAState extends State<SayfaA> {
         backgroundColor: Colors.black,
         title: Text(
           "Ana Menü",
-          style: GoogleFonts.oswald(fontSize: 25),
+          style: TextStyle(fontSize: 25),
         ),
       ),
       body: SingleChildScrollView(
@@ -70,7 +69,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Adalar", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Adalar", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -82,7 +81,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Arnavutkoy", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Arnavutkoy", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -94,7 +93,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Ataşehir", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Ataşehir", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -105,7 +104,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Avcılar", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Avcılar", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -117,7 +116,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Bağcılar", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Bağcılar", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -129,7 +128,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Bahçelievler",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -141,7 +140,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Bakırköy", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Bakırköy", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -153,7 +152,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Başakşehir", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Başakşehir", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -165,7 +164,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Bayrampaşa", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Bayrampaşa", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -177,7 +176,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Beşiktaş", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Beşiktaş", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -188,7 +187,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Beykoz", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Beykoz", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -200,7 +199,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Beylikdüzü", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Beylikdüzü", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -211,7 +210,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Beyoğlu", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Beyoğlu", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -223,7 +222,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Büyükçekmece",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -234,7 +233,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Çatalca", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Çatalca", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -246,7 +245,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Çekmeköy", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Çekmeköy", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -257,7 +256,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Esenler", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Esenler", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -269,7 +268,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Esenyurt", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Esenyurt", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -281,7 +280,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Eyüpsultan", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Eyüpsultan", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -292,7 +291,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Fatih", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Fatih", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -304,7 +303,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Gaziosmanpaşa",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -316,7 +315,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Güngören", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Güngören", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -327,7 +326,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Kadıköy", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Kadıköy", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -339,7 +338,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Kağıthane", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Kağıthane", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -350,7 +349,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Kartal", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Kartal", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -362,7 +361,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Küçükçekmece",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -373,7 +372,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Maltepe", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Maltepe", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -384,7 +383,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Pendik", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Pendik", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -396,7 +395,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Sancaktepe", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Sancaktepe", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -407,7 +406,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Sarıyer", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Sarıyer", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -418,7 +417,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Silivri", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Silivri", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -429,7 +428,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Şişli", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Şişli", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -440,7 +439,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Şile", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Şile", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(
@@ -452,7 +451,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Sultanbeyli",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -464,7 +463,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Sultangazi", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Sultangazi", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -475,7 +474,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Tuzla", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Tuzla", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -487,7 +486,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child:
-                    Text("Ümraniye", style: GoogleFonts.oswald(fontSize: 30)),
+                    Text("Ümraniye", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -498,7 +497,7 @@ class _SayfaAState extends State<SayfaA> {
                 height: 10,
               ),
               TextButton(
-                child: Text("Üsküdar", style: GoogleFonts.oswald(fontSize: 30)),
+                child: Text("Üsküdar", style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -510,7 +509,7 @@ class _SayfaAState extends State<SayfaA> {
               ),
               TextButton(
                 child: Text("Zeytinburnu",
-                    style: GoogleFonts.oswald(fontSize: 30)),
+                    style: TextStyle(fontSize: 30)),
                 style: TextButton.styleFrom(foregroundColor: Colors.black),
                 onPressed: () {
                   Navigator.push(context,
@@ -530,3 +529,4 @@ class _SayfaAState extends State<SayfaA> {
     );
   }
 }
+
