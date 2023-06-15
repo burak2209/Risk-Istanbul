@@ -103,7 +103,7 @@ class _AvcilarState extends State<Avcilar> {
                   child: Text(
                     "- Ambarlı Mahallesi Kapalı Semt Pazarı",
                     style: TextStyle(
-                      fontSize: 25,
+                      fontSize: 27,
                       color: Colors.black,
                       fontFamily: "Oswald",
                     ),

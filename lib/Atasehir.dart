@@ -102,7 +102,7 @@ class _AtasehirState extends State<Atasehir> {
                   child: Text(
                     "- Aşık Veysel Lisesi",
                     style: TextStyle(
-                      fontSize: 25,
+                      fontSize: 27,
                       color: Colors.black,
                       fontFamily: "Oswald",
                     ),
