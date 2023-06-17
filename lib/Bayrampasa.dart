@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bayrampasa extends StatefulWidget {
@@ -182,7 +183,14 @@ class _BayrampasaState extends State<Bayrampasa> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/bayrampasa-risk.jpg")
+                Container(
+                  width: 640,
+                  height: 800,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/bayrampasa-risk.jpg"),
+                  ),
+                ),
+                SizedBox(height: 20,),
               ],
             ),
           ),

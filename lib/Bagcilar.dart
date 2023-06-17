@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bagcilar extends StatefulWidget {
@@ -196,7 +197,14 @@ class _BagcilarState extends State<Bagcilar> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/bagcılar-risk.jpg"),
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/bagcılar-risk.jpg"),
+                  ),
+                ),
+                SizedBox(height: 20,),
               ],
             ),
           ),

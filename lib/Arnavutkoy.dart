@@ -192,6 +192,7 @@ class _ArnavutkoyState extends State<Arnavutkoy> {
                     imageProvider: AssetImage("assets/ArnavutkoyRisk.png"),
                   ),
                 ),
+                SizedBox(height: 20,),
               ],
             ),
           ),

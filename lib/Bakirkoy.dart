@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Bakirkoy extends StatefulWidget {
@@ -170,10 +171,14 @@ class _BakirkoyState extends State<Bakirkoy> {
                   height: 10,
                   color: Colors.black,
                 ),
-                SizedBox(
-                  height: 20,
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/bakırkoy-risk.jpg"),
+                  ),
                 ),
-                Image.asset("assets/bakırkoy-risk.jpg")
+                SizedBox(height: 20,),
               ],
             ),
           ),

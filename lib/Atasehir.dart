@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Atasehir extends StatefulWidget {
@@ -195,7 +196,14 @@ class _AtasehirState extends State<Atasehir> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/ataşehir.jpg"),
+            Container(
+              width: 640,
+              height: 485,
+              child: PhotoView(
+                imageProvider: AssetImage("assets/ataşehir.jpg"),
+                  ),
+                ),
+                SizedBox(height: 20,),
               ],
             ),
           ),

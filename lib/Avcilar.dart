@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Avcilar extends StatefulWidget {
@@ -196,7 +197,14 @@ class _AvcilarState extends State<Avcilar> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/avcılar.png"),
+                Container(
+                  width: 640,
+                  height: 485,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/avcılar.png"),
+                  ),
+                ),
+                SizedBox(height: 20,),
               ],
             ),
           ),
