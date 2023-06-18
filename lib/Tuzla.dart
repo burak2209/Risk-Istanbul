@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Tuzla extends StatefulWidget {
   const Tuzla({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _TuzlaState extends State<Tuzla> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/tuzla-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 600,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/tuzla-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Maltepe extends StatefulWidget {
   const Maltepe({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _MaltepeState extends State<Maltepe> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/maltepe-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/maltepe-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

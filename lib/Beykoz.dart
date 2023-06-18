@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 import 'package:riskistanbul/Anamenu.dart';
 
 class Beykoz extends StatefulWidget {
@@ -183,7 +184,16 @@ class _BeykozState extends State<Beykoz> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/beykoz-risk.jpg")
+                Container(
+                  width: 490,
+                  height: 555,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/beykoz-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

@@ -47,7 +47,7 @@ class _BesiktasState extends State<Besiktas> {
                   height: 10,
                 ),
                 Text(
-                  "e Mw=7.5 büyüklüğündeki senaryo depreminde, Beşiktaş’taki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sinin hafif, %6,5’inin orta, %1’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
+                  "Mw=7.5 büyüklüğündeki senaryo depreminde, Beşiktaş’taki binaların ortalama %72’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %20’sinin hafif, %6,5’inin orta, %1’inin ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontSize: 27,
@@ -191,7 +191,9 @@ class _BesiktasState extends State<Besiktas> {
                     imageProvider: AssetImage("assets/besiktas-risk.jpg"),
                   ),
                 ),
-                SizedBox(height: 20,),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

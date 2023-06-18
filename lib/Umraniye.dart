@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Umraniye extends StatefulWidget {
   const Umraniye({Key? key}) : super(key: key);
@@ -172,7 +173,16 @@ class _UmraniyeState extends State<Umraniye> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/umraniye-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/umraniye-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

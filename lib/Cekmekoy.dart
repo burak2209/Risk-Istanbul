@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Cekmekoy extends StatefulWidget {
   const Cekmekoy({Key? key}) : super(key: key);
@@ -45,7 +46,7 @@ class _CekmekoyState extends State<Cekmekoy> {
                   height: 10,
                 ),
                 Text(
-                  "Çekmeköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir.e Mw=7.5 büyüklüğündeki senaryo depreminde, Çekmeköy’deki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %16’sının hafif, %5’ininorta, %0.533’ünün ağır ve %0.07’sinin de çok ağır hasar görmesi beklenmektedir. ",
+                  "Çekmeköy İlçesi İstanbul'da yer alan ve Marmara fay hattına yakınlığı sebebiyle deprem riski bulunan bir bölgedir.Mw=7.5 büyüklüğündeki senaryo depreminde, Çekmeköy’deki binaların ortalama %78’inin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %16’sının hafif, %5’ininorta, %0.533’ünün ağır ve %0.07’sinin de çok ağır hasar görmesi beklenmektedir. ",
                   textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontSize: 27,
@@ -182,7 +183,16 @@ class _CekmekoyState extends State<Cekmekoy> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/cekmekoy-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/cekmekoy-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

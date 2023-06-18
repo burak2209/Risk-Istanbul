@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Fatih extends StatefulWidget {
   const Fatih({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _FatihState extends State<Fatih> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/fatih-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/fatih-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

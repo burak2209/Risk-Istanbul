@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Zeytinburnu extends StatefulWidget {
   const Zeytinburnu({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _ZeytinburnuState extends State<Zeytinburnu> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/zeytinburnu-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 545,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/zeytinburnu-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Silivri extends StatefulWidget {
   const Silivri({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _SilivriState extends State<Silivri> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/silivri-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/silivri-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

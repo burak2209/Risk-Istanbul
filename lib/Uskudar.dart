@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Uskudar extends StatefulWidget {
   const Uskudar({Key? key}) : super(key: key);
@@ -33,7 +34,7 @@ class _UskudarState extends State<Uskudar> {
                     "ÜSKÜDAR RİSK DURUMU",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.orange,
+                      color: Colors.red,
                     ),
                   ),
                 ),
@@ -45,7 +46,7 @@ class _UskudarState extends State<Uskudar> {
                   height: 10,
                 ),
                 Text(
-                  "Üsküdar 2.derece risk taşıyan deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Üsküdar’daki binaların ortalama %67’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %23’ünün hafif, %8’ininorta, %1,5’unun ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
+                  "Üsküdar 1.derece risk taşıyan deprem bölgesidir.Mw=7.5 büyüklüğündeki senaryo depreminde, Üsküdar’daki binaların ortalama %67’sinin hasar görmeyeceği tahmin edilmektedir. Binaların ortalama %23’ünün hafif, %8’ininorta, %1,5’unun ağır ve %0,5’inin de çok ağır hasar görmesi beklenmektedir",
                   textAlign: TextAlign.justify,
                   style: TextStyle(
                     fontSize: 27,
@@ -61,7 +62,7 @@ class _UskudarState extends State<Uskudar> {
                     "ÜSKÜDAR TOPLANMA ALANLARI",
                     style: TextStyle(
                       fontSize: 29,
-                      color: Colors.orange,
+                      color: Colors.red,
                     ),
                   ),
                 ),
@@ -171,7 +172,7 @@ class _UskudarState extends State<Uskudar> {
                     "ÜSKÜDAR RİSK HARİTASI",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.orange,
+                      color: Colors.red,
                     ),
                   ),
                 ),
@@ -182,7 +183,16 @@ class _UskudarState extends State<Uskudar> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/uskudar-risk.jpg")
+                Container(
+                  width: 755,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/uskudar-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

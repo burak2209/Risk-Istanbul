@@ -46,7 +46,7 @@ class _AdalarState extends State<Adalar> {
                     "ADALAR RİSK DURUMU",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -76,7 +76,7 @@ class _AdalarState extends State<Adalar> {
                     "ADALAR TOPLANMA ALANLARI",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -97,7 +97,7 @@ class _AdalarState extends State<Adalar> {
                     "BÜYÜK ADA",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -143,7 +143,7 @@ class _AdalarState extends State<Adalar> {
                     "HEYBELİ ADA",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -189,7 +189,7 @@ class _AdalarState extends State<Adalar> {
                     "BURGAZ ADA",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -257,7 +257,7 @@ class _AdalarState extends State<Adalar> {
                     "KINALI ADA",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),
@@ -303,7 +303,7 @@ class _AdalarState extends State<Adalar> {
                     "ADALAR RİSK HARİTASI",
                     style: TextStyle(
                       fontSize: 30,
-                      color: Colors.green,
+                      color: Colors.red,
                       fontFamily: "Oswald",
                     ),
                   ),

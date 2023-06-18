@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Catalca extends StatefulWidget {
   const Catalca({Key? key}) : super(key: key);
@@ -152,7 +153,16 @@ class _CatalcaState extends State<Catalca> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/catalca-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/catalca-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

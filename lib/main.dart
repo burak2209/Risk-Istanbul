@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:riskistanbul/Anamenu.dart';
 import 'package:riskistanbul/Yapilmasi.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:riskistanbul/dudukbilgi.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -30,7 +31,6 @@ class anaEkran extends StatefulWidget {
 }
 
 class _anaEkranState extends State<anaEkran> {
-
   final player = AudioPlayer();
   bool buttonPressBool = true;
 
@@ -47,38 +47,50 @@ class _anaEkranState extends State<anaEkran> {
           SizedBox(
             height: 100,
           ),
-          Row(mainAxisAlignment: MainAxisAlignment.center,children: <Widget>[
-            ElevatedButton(
-              onPressed: (){setState(() {
-                  if (buttonPressBool == true) {
-                    player.play(AssetSource("sounds/duduk-ses.mp3"));
-                    buttonPressBool = false;
-                  } else {
-                    player.stop();
-                    buttonPressBool = true;
-                  }
-              });},
-              child: Image.asset("assets/images/duduk.png"),
-              style: ElevatedButton.styleFrom(
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              ElevatedButton(
+                onPressed: () {
+                  setState(() {
+                    if (buttonPressBool == true) {
+                      player.play(AssetSource("sounds/duduk-ses.mp3"));
+                      buttonPressBool = false;
+                    } else {
+                      player.stop();
+                      buttonPressBool = true;
+                    }
+                  });
+                },
+                child: Image.asset("assets/images/duduk.png"),
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
                   ),
-                backgroundColor: Colors.red,
-              ),
-            ),
-            SizedBox(width: 20,),
-            ElevatedButton(onPressed: (){
-              print("ahmet");
-            },
-                child: Image.asset("assets/images/soru.png"),
-              style: ElevatedButton.styleFrom(
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12),
+                  backgroundColor: Colors.red,
                 ),
-                backgroundColor: Colors.black,
               ),
-            ),
-          ],
+              SizedBox(
+                width: 20,
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => dudukbilgi()));
+                },
+                child: Image.asset("assets/images/soru.png"),
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  backgroundColor: Colors.black,
+                ),
+              ),
+            ],
           ),
-          SizedBox(height: 20,),
+          SizedBox(
+            height: 20,
+          ),
           Expanded(
             flex: 1,
             child: Padding(

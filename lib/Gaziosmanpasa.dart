@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Gaziosmanpasa extends StatefulWidget {
   const Gaziosmanpasa({Key? key}) : super(key: key);
@@ -172,7 +173,16 @@ class _GaziosmanpasaState extends State<Gaziosmanpasa> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/gaziosmanpasa-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/gaziosmanpasa-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

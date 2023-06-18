@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Esenler extends StatefulWidget {
   const Esenler({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _EsenlerState extends State<Esenler> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/esenler-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/esenler-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

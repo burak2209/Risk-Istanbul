@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Gungoren extends StatefulWidget {
   const Gungoren({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _GungorenState extends State<Gungoren> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/gungoren-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/gungoren-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

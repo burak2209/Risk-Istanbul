@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Sisli extends StatefulWidget {
   const Sisli({Key? key}) : super(key: key);
@@ -162,7 +163,16 @@ class _SisliState extends State<Sisli> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/sisli-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/sisli-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

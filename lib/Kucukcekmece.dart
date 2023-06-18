@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Kucukcekmece extends StatefulWidget {
   const Kucukcekmece({Key? key}) : super(key: key);
@@ -199,7 +200,16 @@ class _KucukcekmeceState extends State<Kucukcekmece> {
                   height: 10,
                   color: Colors.black,
                 ),
-                Image.asset("assets/kucukcekmece-risk.jpeg")
+                Container(
+                  width: 700,
+                  height: 850,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/kucukcekmece-risk.jpeg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

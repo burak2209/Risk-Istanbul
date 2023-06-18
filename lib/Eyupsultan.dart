@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Eyupsultan extends StatefulWidget {
   const Eyupsultan({Key? key}) : super(key: key);
@@ -202,7 +203,16 @@ class _EyupsultanState extends State<Eyupsultan> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/eyup-risk.png")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/eyup-risk.png"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

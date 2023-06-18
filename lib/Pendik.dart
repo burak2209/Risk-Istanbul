@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Pendik extends StatefulWidget {
   const Pendik({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _PendikState extends State<Pendik> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/pendik-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/pendik-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

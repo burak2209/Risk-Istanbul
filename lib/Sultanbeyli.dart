@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Sultanbeyli extends StatefulWidget {
   const Sultanbeyli({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _SultanbeyliState extends State<Sultanbeyli> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/sultanbeyli-risk.jpg")
+                Container(
+                  width: 505,
+                  height: 500,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/sultanbeyli-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Sariyer extends StatefulWidget {
   const Sariyer({Key? key}) : super(key: key);
@@ -182,7 +183,16 @@ class _SariyerState extends State<Sariyer> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/sarıyer-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 800,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/sarıyer-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class Kagithane extends StatefulWidget {
   const Kagithane({Key? key}) : super(key: key);
@@ -162,7 +163,16 @@ class _KagithaneState extends State<Kagithane> {
                 SizedBox(
                   height: 20,
                 ),
-                Image.asset("assets/kagıthane-risk.jpg")
+                Container(
+                  width: 595,
+                  height: 640,
+                  child: PhotoView(
+                    imageProvider: AssetImage("assets/kagıthane-risk.jpg"),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),
