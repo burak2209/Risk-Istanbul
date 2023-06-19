@@ -165,7 +165,7 @@ class _EsenyurtState extends State<Esenyurt> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/esenyurt-risk.jpg"),
                   ),

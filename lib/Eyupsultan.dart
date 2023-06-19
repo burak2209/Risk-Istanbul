@@ -205,7 +205,7 @@ class _EyupsultanState extends State<Eyupsultan> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/eyup-risk.png"),
                   ),

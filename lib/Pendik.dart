@@ -14,7 +14,7 @@ class _PendikState extends State<Pendik> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Bağcılar",
+          "Pendik",
           style: TextStyle(fontSize: 25),
         ),
         backgroundColor: Colors.black,

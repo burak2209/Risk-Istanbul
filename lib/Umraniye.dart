@@ -175,7 +175,7 @@ class _UmraniyeState extends State<Umraniye> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/umraniye-risk.jpg"),
                   ),

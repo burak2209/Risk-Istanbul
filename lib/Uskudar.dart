@@ -185,7 +185,7 @@ class _UskudarState extends State<Uskudar> {
                 ),
                 Container(
                   width: 755,
-                  height: 640,
+                  height: 900,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/uskudar-risk.jpg"),
                   ),

@@ -185,8 +185,8 @@ class _BeyogluState extends State<Beyoglu> {
                   height: 20,
                 ),
                 Container(
-                  width: 595,
-                  height: 650,
+                  width: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/beyoglu.png"),
                   ),

@@ -185,7 +185,7 @@ class _GungorenState extends State<Gungoren> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/gungoren-risk.jpg"),
                   ),

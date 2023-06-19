@@ -185,7 +185,7 @@ class _SilivriState extends State<Silivri> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/silivri-risk.jpg"),
                   ),

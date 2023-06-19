@@ -185,7 +185,7 @@ class _TuzlaState extends State<Tuzla> {
                 ),
                 Container(
                   width: 595,
-                  height: 600,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/tuzla-risk.jpg"),
                   ),

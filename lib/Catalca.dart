@@ -155,7 +155,7 @@ class _CatalcaState extends State<Catalca> {
                 ),
                 Container(
                   width: 595,
-                  height: 640,
+                  height: 800,
                   child: PhotoView(
                     imageProvider: AssetImage("assets/catalca-risk.jpg"),
                   ),

@@ -100,9 +100,11 @@ class _anaEkranState extends State<anaEkran> {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Yapilmasi()));
                 },
-                child: Text(
-                  "Depremde yapılması gerekenler için tıklayınız",
-                  style: TextStyle(fontSize: 29.5),
+                child: FittedBox(
+                  child: Text(
+                    "Depremde yapılması gerekenler için tıklayınız",
+                    style: TextStyle(fontSize: 29.5),
+                  ),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -125,9 +127,11 @@ class _anaEkranState extends State<anaEkran> {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SayfaA()));
                 },
-                child: Text(
-                  "İlçelerin risk durumunu görüntülemek için tıklayınız",
-                  style: TextStyle(fontSize: 26),
+                child: FittedBox(
+                  child: Text(
+                    "İlçelerin risk durumunu görüntülemek için tıklayınız",
+                    style: TextStyle(fontSize: 26),
+                  ),
                 ),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
